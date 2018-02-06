@@ -1,0 +1,30 @@
+{
+  "name": "Portfolio_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch asset/scss -o asset/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mojtabarks/Portfolio_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mojtabarks/Portfolio_website/issues"
+  },
+  "homepage": "https://gitlab.com/mojtabarks/Portfolio_website#README",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "custom-scrollbar": "0.0.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.7.2",
+    "paroller.js": "^1.3.0",
+    "scrollmagic": "^2.0.5"
+  }
+}
