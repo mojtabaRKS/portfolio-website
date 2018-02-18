@@ -1,0 +1,5 @@
+.jInvertScroll {
+  position: fixed;	// All scrollable elements have to be position:fixed
+  bottom: 0;	// Make it stick to the bottom (or top)
+  width: 100%;	// I recommend to assign the width in px, prevents preloading issues
+}

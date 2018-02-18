@@ -1,0 +1,11 @@
+.jInvertScroll {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+.float-left {
+  float: left; }
+
+.portfolio {
+  float: left;
+  display: inline; }
