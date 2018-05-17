@@ -1,11 +1,51 @@
-.jInvertScroll {
+html, body {
+  height: 100%; }
+
+a {
+  color: black; }
+  a:hover {
+    text-decoration: none; }
+
+.visitor-position {
   position: fixed;
-  bottom: 0;
-  width: 100%; }
+  top: 30px;
+  right: 40px;
+  float: right; }
 
-.float-left {
-  float: left; }
+.arrow-down {
+  z-index: -1;
+  position: fixed;
+  bottom: 8%;
+  left: 10%; }
 
-.portfolio {
-  float: left;
-  display: inline; }
+.content {
+  position: absolute;
+  z-index: -1;
+  top: 11%;
+  bottom: 11%;
+  left: 5%;
+  right: 5%; }
+  .content .header {
+    position: absolute;
+    font-size: 2em;
+    z-index: -5;
+    margin-left: 5%;
+    margin-top: 2%; }
+  .content .description {
+    position: absolute;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 20%; }
+    .content .description .read-more {
+      width: 20%;
+      cursor: pointer;
+      margin-top: 10%; }
+  .content .picture {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    z-index: -1;
+    width: 30%; }
+    .content .picture img {
+      opacity: .6;
+      width: 350px; }
