@@ -14,7 +14,11 @@ $(document).ready(function () {
 $(".tilt-js").tilt({
 	maxTilt: 5,
 	perspective: 1000
+	// transform-style: preserve-3d
 });
+
+// var scene = document.getElementById('scene');
+// var parallaxInstance = new Parallax(scene);
 
 
 

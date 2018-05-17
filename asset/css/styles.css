@@ -42,7 +42,7 @@ a {
       margin-top: 10%; }
   .content .picture {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 40%;
     z-index: -1;
     width: 30%; }

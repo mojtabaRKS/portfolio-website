@@ -9,6 +9,11 @@
   -moz-box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.66);
   box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.66);
 
+  .menu-description {
+    max-width: 90%;
+    padding-left: 5%;
+  }
+
   nav{
    min-height: 100%;
    max-width: 90%;
@@ -18,9 +23,9 @@
      -webkit-padding-start: 0;
      li {
        a {
-         font-size: 2em;
+         font-size: 3em;
        }
-       padding: 10%;
+       padding: 5%;
        &:hover {
          cursor: pointer;
          background-color: #57B0C9;
@@ -33,6 +38,7 @@
  }
 
   .menu-wrapper {
+
     float: right;
     margin-top : 10%;
     padding-left: 5%;
