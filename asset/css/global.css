@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'sans';
+  src: url("../fonts/IRANSans/IRANSansWeb_Light.woff") format("woff"), url(../fonts/IRANSans/IRANSansWeb_Light.eot) format("eot"), url(../fonts/IRANSans/IRANSansWeb_Light.eot?#iefix) format("embedded-opentype"), url("../fonts/IRANSans/IRANSansWeb_Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal; }
+
+@font-face {
+  font-family: 'sansMedium';
+  src: url("../fonts/IRANSansMedium/IRANSansWeb_Medium.woff") format("woff"), url(../fonts/IRANSansMedium/IRANSansWeb_Medium.eot) format("eot"), url(../fonts/IRANSansMedium/IRANSansWeb_Medium.eot?#iefix) format("embedded-opentype"), url("../fonts/IRANSansMedium/IRANSansWeb_Medium.ttf") format("truetype");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'sansBold';
+  src: url("../fonts/IRANSansBold/IRANSansWeb_Bold.woff") format("woff"), url(../fonts/IRANSansBold/IRANSansWeb_Bold.eot) format("eot"), url(../fonts/IRANSansBold/IRANSansWeb_Bold.eot?#iefix) format("embedded-opentype"), url("../fonts/IRANSansBold/IRANSansWeb_Bold.ttf") format("truetype");
+  font-weight: bold; }
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  overflow-x: hidden;
+  font-family: sansMedium; }
+
+body::-webkit-scrollbar {
+  display: none; }
+
+body,
+html,
+label,
+p,
+span,
+h1, h3, h4, h5, h6 {
+  font: 12px/25px sans, tahoma; }
+
+h2 {
+  font: 16px/25px sansMedium; }
+
+a {
+  color: #555555; }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: #1b6d85; }
+
+button, input, textarea {
+  outline: none !important; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.padding-right-0 {
+  padding-right: 0 !important; }
+
+.padding-right-5 {
+  padding-right: 5px !important; }
+
+.padding-right-10 {
+  padding-right: 10px !important; }
+
+.padding-right-15 {
+  padding-right: 15px !important; }
+
+.padding-right-20 {
+  padding-right: 20px !important; }
+
+.padding-left-0 {
+  padding-left: 0 !important; }
+
+.padding-left-5 {
+  padding-left: 5px !important; }
+
+.padding-left-10 {
+  padding-left: 10px !important; }
+
+.padding-left-15 {
+  padding-left: 15px !important; }
+
+.padding-left-20 {
+  padding-left: 20px !important; }
+
+.padding-top-0 {
+  padding-top: 0 !important; }
+
+.padding-none {
+  padding-right: 0px !important; }
+
+.padding-top-5 {
+  padding-top: 5px !important; }
+
+.padding-top-10 {
+  padding-top: 10px !important; }
+
+.padding-top-15 {
+  padding-top: 15px !important; }
+
+.padding-top-20 {
+  padding-top: 20px !important; }
+
+.padding-top-30 {
+  padding-top: 30px !important; }
+
+.padding-bottom-0 {
+  padding-bottom: 0 !important; }
+
+.padding-bottom-5 {
+  padding-bottom: 5px !important; }
+
+.padding-bottom-10 {
+  padding-bottom: 10px !important; }
+
+.padding-bottom-15 {
+  padding-bottom: 15px !important; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px !important; }
+
+.margin-right-0 {
+  margin-right: 0 !important; }
+
+.margin-right-5 {
+  margin-right: 5px !important; }
+
+.margin-right-10 {
+  margin-right: 10px !important; }
+
+.margin-right-15 {
+  margin-right: 15px !important; }
+
+.margin-right-50 {
+  margin-right: 50px !important; }
+
+.margin-right-20 {
+  margin-right: 20px !important; }
+
+.margin-right-30 {
+  margin-right: 30px; }
+
+.margin-left-0 {
+  margin-left: 0 !important; }
+
+.margin-left-5 {
+  margin-left: 5px !important; }
+
+.margin-left-10 {
+  margin-left: 10px !important; }
+
+.margin-left-15 {
+  margin-left: 15px !important; }
+
+.margin-left-20 {
+  margin-left: 20px !important; }
+
+.margin-left-150 {
+  margin-left: 150px !important; }
+
+.margin-top-0 {
+  margin-top: 0 !important; }
+
+.margin-top-5 {
+  margin-top: 5px !important; }
+
+.margin-top-10 {
+  margin-top: 10px !important; }
+
+.margin-top-15 {
+  margin-top: 15px !important; }
+
+.margin-top-20 {
+  margin-top: 20px !important; }
+
+.margin-top-25 {
+  margin-top: 25px !important; }
+
+.margin-top-30 {
+  margin-top: 30px !important; }
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important; }
+
+.margin-bottom-5 {
+  margin-bottom: 5px !important; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px !important; }
+
+.margin-bottom-15 {
+  margin-bottom: 15px !important; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px !important; }
+
+.margin-bottom-25 {
+  margin-bottom: 25px !important; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px !important; }
+
+.center {
+  display: flex;
+  justify-content: center; }

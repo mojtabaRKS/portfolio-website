@@ -1,0 +1,48 @@
+@media (max-width: 440px) {
+  .bg-background .grid figure {
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 200px;
+    max-width: 272px;
+    max-height: 342px;
+    height: auto;
+    background: #000;
+    cursor: pointer;
+    position: relative;
+    right: -15px;
+  }
+  
+  .width-button-product {
+    color: #fff;
+    background-color: #1b6d85;
+    display: flex;
+    padding: 9px 99px;
+    border-radius: 0;
+    margin: 0 auto 50px;
+  }
+  .position-image-center {
+    position: absolute;
+    right: 12%;
+    display: none;
+  }
+  .margin-top-h2-title {
+    margin-top: 15px;
+  }
+  .text-size-font {
+    font-size: 20px;
+  }
+  .navbar-center {
+    height: 107px;
+  }
+  .box-center-col {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+  #container {
+    height: 50px !important;
+    margin-top: 100px;
+    margin-right: -65px;
+  }
+}

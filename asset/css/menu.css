@@ -1,0 +1,60 @@
+.menu-items {
+  min-height: 100%;
+  width: 50%;
+  margin-left: -45%;
+  background: white;
+  z-index: 99999;
+  -webkit-box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.66);
+  box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.66); }
+  .menu-items nav {
+    min-height: 100%;
+    max-width: 90%;
+    border-right: 1px solid black; }
+    .menu-items nav ul {
+      list-style: none;
+      -webkit-padding-start: 0; }
+      .menu-items nav ul li {
+        padding: 10%; }
+        .menu-items nav ul li a {
+          font-size: 2em; }
+        .menu-items nav ul li:hover {
+          cursor: pointer;
+          background-color: #57B0C9; }
+          .menu-items nav ul li:hover a {
+            color: white; }
+  .menu-items .menu-wrapper {
+    float: right;
+    margin-top: 10%;
+    padding-left: 5%; }
+    .menu-items .menu-wrapper .sub-wrapper .menu {
+      width: 50px;
+      position: relative;
+      cursor: pointer;
+      height: 40px; }
+    .menu-items .menu-wrapper .sub-wrapper .menu span {
+      display: block;
+      height: 3px;
+      width: 70%;
+      background: black;
+      position: absolute;
+      transition: .4s all;
+      border-radius: 100px; }
+    .menu-items .menu-wrapper .sub-wrapper .menu span:nth-child(1) {
+      top: 0; }
+    .menu-items .menu-wrapper .sub-wrapper .menu span:nth-child(2) {
+      top: 10px;
+      transform-origin: left; }
+    .menu-items .menu-wrapper .sub-wrapper .menu span:nth-child(3) {
+      top: 20px; }
+    .menu-items .menu-wrapper .sub-wrapper .menu.open span:nth-child(1) {
+      transform: rotate(45deg);
+      top: 20px;
+      transform-origin: right-center; }
+    .menu-items .menu-wrapper .sub-wrapper .menu.open span:nth-child(2) {
+      width: 0;
+      opacity: 0; }
+    .menu-items .menu-wrapper .sub-wrapper .menu.open span:nth-child(3) {
+      transform: rotate(-45deg);
+      top: 20px;
+      transform-origin: right-center; }
