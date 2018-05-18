@@ -1,14 +1,3 @@
-// $('.read-more').hover(function () {
-//     var $this = $('.read-more-p');
-//     $this.toggle({
-//         'width' : '14%',
-//         'padding-bottom' : '1.5%',
-//         'max-width': 'inherit',
-//         'border-bottom' : '2px solid black' ,
-//         'font-style' : 'bold'
-//     });
-// });
-
 $(document).ready(function(){
     
     $('.menu-wrapper').click(function(){
@@ -44,7 +33,6 @@ $(document).ready(function(){
     } , function () {
         $(this).animate({ "padding-left":"-=30px"});
     })
-
-
-
+    
+    
 });

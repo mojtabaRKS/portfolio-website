@@ -63,49 +63,4 @@ a {
 		left: 20%;
 	}
 }
-.content {
-  // border: 1px solid black;
-  position: absolute;
-  top: 11%;
-  bottom: 11%;
-  left: 5%;
-  right: 5%;
-	.header {
-        position: absolute;
-		font-size: 2em;
-      z-index: -5;
-		margin-left: 5%;
-		margin-top: 2%;
-	}
-	.description {
-        position: absolute;
-		width: 50%;
-		margin-left: 10%;
-		margin-top: 20%;
-		.read-more {
-			width: 20%;
-			cursor: pointer;
-			.read-more-p {
-				z-index: 9999;
-				width: 14%;
-				padding-bottom: 1.5%;
-				max-width: inherit;
-				border-bottom: 2px solid black;
-			}
-			margin-top: 10%;
 
-		}
-	}
-	.picture {
-		position: absolute;
-		top: 20%;
-		left: 40%;
-		z-index: -1;
-		width: 30%;
-		img{
-			opacity: .6;
-			width: 350px;
-		}
-	}
-
-}
