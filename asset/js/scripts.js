@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    
+
+    $("#main-wrapper").append($("#home-page").show());
+
     $('.menu-wrapper').click(function(){
         $(".menu").toggleClass('open');
         var active = $(".menu-active");
@@ -29,27 +31,5 @@ $(document).ready(function(){
         $(this).animate({ "padding-left":"+=30px"});
     } , function () {
         $(this).animate({ "padding-left":"-=30px"});
-    });
-    
-    $(document).on("wheel" , function (e) {
-        e.preventDefault();
-        var pagePosition = $("#page-pos-detector");
-        if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
-            // Scroll up
-            if(pagePosition.val() == 1) {
-                goToHomePage();
-            } else if (pagePosition.val() == 2) {
-                goToPortfolioPage();
-            }
-        }
-        else {
-            // Scroll down
-            if(pagePosition.val() == 0) {
-                goToPortfolioPage();
-            } else if (pagePosition.val() == 1) {
-                goToContactPage();
-            }
-        }
-
     });
 });
