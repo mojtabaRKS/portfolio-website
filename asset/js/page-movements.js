@@ -17,7 +17,8 @@ function changePositionTitle(text) {
 function appendPage(page) {
     mainDiv.fadeOut(200 , function () {
         $(this).html('').promise().done(function () {
-            mainDiv.append(page).promise().done(function () {
+            mainDiv.html(page).promise().done(function () {
+                page.css({"display": "block"});
                 mainDiv.fadeIn();
             });
         })
@@ -55,19 +56,20 @@ function goToPortfolioPage() {
     appendPage(portfolioDiv);
 }
 
+
 function goToContactPage() {
     pagePosition.val(2);
     changePositionTitle("CONTACT");
     changePositionNavigator();
-// $("#portfolio-page").fadeOut()
-//fade out portfolio page and move on to contact page
-
+    appendPage(contactDiv);
 }
+
 
 function goToAboutPage() {
     pagePosition.val(3);
     changePositionTitle("ABOUT");
     changePositionNavigator();
+    appendPage(aboutDiv);
 }
 
 
@@ -94,5 +96,4 @@ $(document).on("wheel" , function (e) {
             goToAboutPage();
         }
     }
-
 });
