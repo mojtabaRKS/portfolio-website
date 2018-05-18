@@ -41,6 +41,7 @@
 
     <div class="visitor-position">
         <p>Home</p>
+        <input type="hidden" id="page-pos-detector" value="0">
     </div>
 
     <div class="arrow-down">
@@ -48,11 +49,11 @@
     </div>
 
     <div class="scroll-position">
-        <span class="scroll-pos-current"> </span>
-        <span class="scroll-pos-current active-current"> </span>
-        <span class="scroll-pos-current"> </span>
-        <span class="scroll-pos-current"> </span>
-        <span class="scroll-pos-current"> </span>
+        <span class="scroll-pos-current active-current" data-position="0"></span>
+        <span class="scroll-pos-current" data-position="1"></span>
+        <span class="scroll-pos-current" data-position="2"></span>
+        <span class="scroll-pos-current" data-position="3"></span>
+        <span class="scroll-pos-current" data-position="4"></span>
     </div>
 
   <div class="container content tilt-js" id="home-page">
@@ -80,6 +81,7 @@
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="asset/vendor/tilt-js/dest/tilt.jquery.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="asset/js/page-movements.js"></script>
   <script src="asset/js/Call-Plugins.js"></script>
   <script src="asset/js/scripts.js"></script>
   </body>
