@@ -15,6 +15,8 @@ $(document).ready(function(){
         $(".menu").toggleClass('open');
         var active = $(".menu-active");
         if(active.val() == 0) {
+            $(".content").css({ "z-index" : "-1"});
+            $(".menu-items").css({ "z-index" : "10"});
             active.val(1);
             $(".menu-items").animate({
                 "margin-left" : "0"
@@ -23,9 +25,18 @@ $(document).ready(function(){
             active.val(0);
             $(".menu-items").animate({
                 "margin-left" : "-45%"
+            } , function () {
+                $(".content").css({ "z-index" : "10"});
+                $(".menu-items").css({ "z-index" : "9"});
             });
-        }
 
+        }
+    });
+
+    $(".read-more").hover(function () {
+        $(".read-more-p").animate({ "padding-bottom" : "+=10px" });
+    } , function () {
+        $(".read-more-p").animate({ "padding-bottom" : "-=10px" });
     });
 
     $("nav li").hover(function () {

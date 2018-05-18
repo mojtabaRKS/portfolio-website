@@ -1,10 +1,33 @@
 html, body {
   height: 100%; }
 
+.tilt-js {
+  transform-style: preserve-3d; }
+
+.tilt-js-inner {
+  transform: translateZ(70px); }
+
 a {
   color: black; }
   a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
+
+.scroll-position {
+  position: fixed;
+  top: 40%;
+  right: 2%;
+  direction: rtl; }
+  .scroll-position .scroll-pos-current {
+    display: block;
+    margin: 20%;
+    background-color: #b3b3b3;
+    min-width: 50px;
+    min-height: 2px; }
+  .scroll-position .active-current {
+    background-color: black;
+    min-width: 80px;
+    min-height: 2px; }
 
 .visitor-position {
   position: fixed;
@@ -13,14 +36,25 @@ a {
   float: right; }
 
 .arrow-down {
-  z-index: -1;
+  z-index: 1;
   position: fixed;
   bottom: 8%;
-  left: 10%; }
+  right: 2.5%;
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer; }
+  .arrow-down:hover {
+    background-color: #00A6C7;
+    color: white; }
+  .arrow-down i {
+    position: absolute;
+    top: 20%;
+    left: 20%; }
 
 .content {
   position: absolute;
-  z-index: -1;
   top: 11%;
   bottom: 11%;
   left: 5%;
@@ -40,6 +74,12 @@ a {
       width: 20%;
       cursor: pointer;
       margin-top: 10%; }
+      .content .description .read-more .read-more-p {
+        z-index: 9999;
+        width: 14%;
+        padding-bottom: 1.5%;
+        max-width: inherit;
+        border-bottom: 2px solid black; }
   .content .picture {
     position: absolute;
     top: 20%;

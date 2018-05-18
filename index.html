@@ -31,7 +31,6 @@
               <li class="menu-item-list"><a href="#">home</a></li>
               <li class="menu-item-list"><a href="#">portfolio</a></li>
               <li class="menu-item-list"><a href="#">about</a></li>
-
               <li class="menu-item-list"><a href="#">contact</a></li>
           </ul>
       </nav>
@@ -48,22 +47,32 @@
     <div class="arrow-down">
         <i class="fa fa-arrow-down" aria-hidden="true"></i>
     </div>
+
+    <div class="scroll-position">
+        <span class="scroll-pos-current"> </span>
+        <span class="scroll-pos-current active-current"> </span>
+        <span class="scroll-pos-current"> </span>
+        <span class="scroll-pos-current"> </span>
+        <span class="scroll-pos-current"> </span>
+    </div>
+
   <div class="container content tilt-js" id="scene">
-        <div class="header" data-depth="0.2">
+        <div class="header tilt-js-inner" data-depth="0.2">
             <h1>WELCOME TO</h1>
             <h1>MOJTABA RKAHISI</h1>
-            <h1> PORTFOLIO WEBSITE</h1>
+            <h1>PORTFOLIO WEBSITE</h1>
         </div>
 
-        <div class="description" data-depth="0.3">
+        <div class="description tilt-js-inner" data-depth="0.3">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed adipisci earum nam ratione vitae tenetur blanditiis laudantium reprehenderit similique assumenda. Minus, exercitationem numquam doloremque, aperiam eius possimus minima alias doloribus!</p>
             <div class="read-more">
-                <p class="read-more-p">read-more</p>
+                <a class="read-more-p" href="#">read-more</a>
             </div>
         </div>
         <div class="picture" data-depth="1">
             <img src="asset/images/Untitled-1.jpg" alt="">
         </div>
+
     </div>
 
 
@@ -81,6 +90,5 @@
   <script src="node_modules/parallax-js/dist/parallax.min.js"></script>
   <script src="asset/js/Call-Plugins.js"></script>
   <script src="asset/js/scripts.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   </body>
 </html>
