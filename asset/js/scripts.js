@@ -47,7 +47,7 @@ $(document).ready(function(){
             if(pagePosition.val() == 0) {
                 goToPortfolioPage();
             } else if (pagePosition.val() == 1) {
-                
+                goToContactPage();
             }
         }
 
