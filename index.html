@@ -7,11 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullpage.css" />
-    <link rel="stylesheet" type="text/css" href="asset/css/jInvertScroll.css" />
     <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="asset/css/menu.css" />
-      <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="asset/css/home-page.css" />
+    <link rel="stylesheet" href="asset/css/styles.css">
       <title>Mojtaba Rakhisi</title>
   </head>
   <body>
@@ -39,9 +38,9 @@
       </div>
   </div>
 
-
     <div class="visitor-position">
-        <p>Home</p>
+        <p id="page-position-title">Home</p>
+        <input type="hidden" id="page-pos-detector" value="0">
     </div>
 
     <div class="arrow-down">
@@ -49,46 +48,44 @@
     </div>
 
     <div class="scroll-position">
-        <span class="scroll-pos-current"> </span>
-        <span class="scroll-pos-current active-current"> </span>
-        <span class="scroll-pos-current"> </span>
-        <span class="scroll-pos-current"> </span>
-        <span class="scroll-pos-current"> </span>
+        <span class="scroll-pos-current active-current" data-position="0"></span>
+        <span class="scroll-pos-current" data-position="1"></span>
+        <span class="scroll-pos-current" data-position="2"></span>
+        <span class="scroll-pos-current" data-position="3"></span>
     </div>
 
-  <div class="container content tilt-js" id="scene">
-        <div class="header tilt-js-inner" data-depth="0.2">
-            <h1>WELCOME TO</h1>
-            <h1>MOJTABA RKAHISI</h1>
-            <h1>PORTFOLIO WEBSITE</h1>
-        </div>
+    <div class="container" id="main-wrapper"></div>
 
-        <div class="description tilt-js-inner" data-depth="0.3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed adipisci earum nam ratione vitae tenetur blanditiis laudantium reprehenderit similique assumenda. Minus, exercitationem numquam doloremque, aperiam eius possimus minima alias doloribus!</p>
-            <div class="read-more">
-                <a class="read-more-p" href="#">read-more</a>
-            </div>
-        </div>
-        <div class="picture" data-depth="1">
-            <img src="asset/images/Untitled-1.jpg" alt="">
-        </div>
+  <div class="container content tilt-js" id="home-page">
+      <div class="header tilt-js-inner">
+          <h1>WELCOME TO</h1>
+          <h1>MOJTABA RKAHISI</h1>
+          <h1>PORTFOLIO WEBSITE</h1>
+      </div>
 
+      <div class="description tilt-js-inner">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed adipisci earum nam ratione vitae tenetur blanditiis laudantium reprehenderit similique assumenda. Minus, exercitationem numquam doloremque, aperiam eius possimus minima alias doloribus!</p>
+          <div class="read-more">
+              <a class="read-more-p" href="#">read-more</a>
+          </div>
+      </div>
+      <div class="picture">
+          <img src="asset/images/Untitled-1.jpg" alt="">
+      </div>
+  </div>
+
+    <div class="container" id="portfolio-page">
+        <div class="row">
+            <div class="col-md-6"><div class="well"></div></div>
+            <div class="col-md-6"><div class="well"></div></div>
+        </div>
     </div>
 
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="asset/vendor/tilt-js/dest/tilt.jquery.min.js"></script>
-  <script src="node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
-  <script src="node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
-
-  <script src="node_modules/scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
-  <script src="node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
-  <script src="node_modules/parallax-js/dist/parallax.min.js"></script>
-  <script src="asset/js/Call-Plugins.js"></script>
-  <script src="asset/js/scripts.js"></script>
-  </body>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="asset/vendor/tilt-js/dest/tilt.jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="asset/js/page-movements.js"></script>
+    <script src="asset/js/Call-Plugins.js"></script>
+    <script src="asset/js/scripts.js"></script>
+    </body>
 </html>
