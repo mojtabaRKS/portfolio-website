@@ -1,5 +1,7 @@
 // initialize paroller.js and set attributes
 $(document).ready(function () {
+    
+    
     $("#fullpage").fullpage({
         css3: true,
         scrollingSpeed: 700,
@@ -15,6 +17,10 @@ $(".tilt-js").tilt({
 	maxTilt: 5,
 	perspective: 1000
 });
+
+
+// var scene = document.getElementById('scene');
+// var parallaxInstance = new Parallax(scene);
 
 
 
