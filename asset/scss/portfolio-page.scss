@@ -1,7 +1,26 @@
 #portfolio-page {
-  position: fixed;
-  width: 100px;
-  height: 100px;
-  top: 50%;
-  left: 50%;
+  .row , .col-md-4 {
+    margin: 0;
+  }
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  z-index: -2;
+  display: none;
+
+  .portfolio-item {
+    position: relative;
+    margin: 0;
+
+    .portfolio-image img {
+      max-width: 200px;
+      max-height: 200px;
+    }
+
+    .portfolio-desc {
+      position: absolute;
+      bottom: -10;
+    }
+  }
+
 }

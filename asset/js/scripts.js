@@ -1,7 +1,5 @@
 $(document).ready(function(){
-
     $("#main-wrapper").append($("#home-page").show());
-
     $('.menu-wrapper').click(function(){
         $(".menu").toggleClass('open');
         var active = $(".menu-active");
