@@ -29,8 +29,10 @@ function changePositionNavigator() {
     $(".scroll-pos-current").each(function () {
         var positionLine = $(this).data('position');
         if (positionLine == pagePosition.val()) {
+            $(this).animate({"min-width" : "80px"} , 500);
             $(this).addClass("active-current");
         } else {
+            $(this).animate({"min-width" : "50px"} , 500);
             $(this).removeClass("active-current");
         }
     });
@@ -76,7 +78,9 @@ function goToAboutPage() {
 $(document).on("wheel" , function (e) {
     e.preventDefault();
     var pagePosition = $("#page-pos-detector");
+
     if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+
         // Scroll up
         if(pagePosition.val() == 1) {
             goToHomePage();
@@ -87,6 +91,7 @@ $(document).on("wheel" , function (e) {
         }
     }
     else {
+
         // Scroll down
         if(pagePosition.val() == 0) {
             goToPortfolioPage();
