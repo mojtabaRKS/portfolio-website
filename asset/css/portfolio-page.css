@@ -4,8 +4,6 @@
   left: 7%;
   z-index: -2;
   display: none; }
-  #portfolio-page .row, #portfolio-page .col-md-4 {
-    margin: 0; }
   #portfolio-page .portfolio-item {
     position: relative;
     margin: 0; }
