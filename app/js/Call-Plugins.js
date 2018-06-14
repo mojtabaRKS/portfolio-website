@@ -4,5 +4,10 @@ $(document).ready(function () {
         maxTilt: 5,
         perspective: 1000
     });
+
+    // var scene = document.getElementById('scene');
+    // var parallaxInstance = new Parallax(scene, {
+    //     // relativeInput: true
+    // });
 });
 

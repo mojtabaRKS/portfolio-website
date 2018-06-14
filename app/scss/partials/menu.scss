@@ -5,52 +5,51 @@
   background: white;
   z-index: 99999;
   //position: fixed;
-  -webkit-box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.66);
-  -moz-box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.66);
-  box-shadow: 1px 1px 15px 0 rgba(0,0,0,0.66);
+  -webkit-box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.66);
+  box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.66);
 
   .menu-description {
     max-width: 90%;
     padding-left: 5%;
   }
 
-  nav{
-   min-height: 100%;
-   max-width: 90%;
-   border-right: 1px solid black;
-   ul {
-     list-style: none;
-     -webkit-padding-start: 0;
-     li {
-       a {
-         font-size: 3em;
-       }
-       padding: 5%;
-       &:hover {
-         cursor: pointer;
-         background-color: #57B0C9;
-         a {
-           color: white;
-         }
-       }
-     }
-   }
- }
+  nav {
+    min-height: 100%;
+    max-width: 90%;
+    border-right: 1px solid black;
+    ul {
+      list-style: none;
+      -webkit-padding-start: 0;
+      li {
+        a {
+          font-size: 3em;
+        }
+        padding: 5%;
+        &:hover {
+          cursor: pointer;
+          background-color: #57B0C9;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
 
   .menu-wrapper {
-
     float: right;
-    margin-top : 10%;
+    margin-top: 10%;
     padding-left: 5%;
     .sub-wrapper {
-      .menu{
+      .menu {
         width: 50px;
         position: relative;
         cursor: pointer;
         height: 40px;
       }
 
-      .menu span{
+      .menu span {
         display: block;
         height: 3px;
         width: 70%;
@@ -60,27 +59,27 @@
         border-radius: 100px;
       }
 
-      .menu span:nth-child(1){
+      .menu span:nth-child(1) {
         top: 0;
       }
-      .menu span:nth-child(2){
+      .menu span:nth-child(2) {
         top: 10px;
         transform-origin: left;
       }
-      .menu span:nth-child(3){
+      .menu span:nth-child(3) {
         top: 20px;
       }
 
-      .menu.open span:nth-child(1){
+      .menu.open span:nth-child(1) {
         transform: rotate(45deg);
         top: 20px;
         transform-origin: right-center;
       }
-      .menu.open span:nth-child(2){
+      .menu.open span:nth-child(2) {
         width: 0;
         opacity: 0;
       }
-      .menu.open span:nth-child(3){
+      .menu.open span:nth-child(3) {
         transform: rotate(-45deg);
         top: 20px;
         transform-origin: right-center;
