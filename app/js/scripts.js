@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+    var currentMousePos = { x: -1, y: -1 };
+    $(document).mousemove(function(event) {
+        currentMousePos.x = event.pageX;
+        currentMousePos.y = event.pageY;
+    });
+
+
     $("#main-wrapper").append($("#home-page").show());
     $('.menu-wrapper').click(function(){
         $(".menu").toggleClass('open');
@@ -25,9 +33,11 @@ $(document).ready(function(){
         $(".read-more-p").animate({ "padding-bottom" : "-=10px" });
     });
 
-    $("nav li").hover(function () {
+    $("nav li").mouseover(function () {
         $(this).animate({ "padding-left":"+=30px"});
-    } , function () {
-        $(this).animate({ "padding-left":"-=30px"});
     });
+
+    $("nav li").mouseleave(function () {
+        $(this).animate({ "padding-left":"-=30px"});
+    })
 });
