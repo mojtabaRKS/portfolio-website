@@ -1,3 +1,12 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'BTitrTGEBold';
+  src: url("../../fonts/BTitrGEBold/BTitrTGEBold.eot?#") format("eot"), url("../../fonts/BTitrGEBold/BTitrTGEBold.woff") format("woff"), url("../../fonts/BTitrGEBold/BTitrTGEBold.ttf") format("truetype");
+  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */ }
+@font-face {
+  font-family: 'BVahidBold';
+  src: url("../../fonts/BVahidBold/BVahidBold.eot?#") format("eot"), url("../../fonts/BVahidBold/BVahidBold.woff") format("woff"), url("../../fonts/BVahidBold/BVahidBold.ttf") format("truetype");
+  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */ }
 .content {
   position: absolute;
   top: 11%;
@@ -6,15 +15,15 @@
   right: 5%; }
   .content .header {
     position: absolute;
-    font-size: 2em;
-    z-index: -5;
-    margin-left: 5%;
-    margin-top: 2%; }
+    font-size: 5em;
+    margin-left: 35%;
+    margin-top: 20%; }
   .content .description {
     position: absolute;
-    width: 50%;
+    width: 100%;
+    font-size: 3em;
     margin-left: 10%;
-    margin-top: 20%; }
+    margin-top: 30%; }
     .content .description .read-more {
       width: 20%;
       cursor: pointer;
@@ -28,12 +37,15 @@
   .content .picture {
     position: absolute;
     top: 20%;
-    left: 40%;
+    left: 20%;
     z-index: -1;
     width: 30%; }
     .content .picture img {
       opacity: .6;
-      width: 350px; }
+      width: 350px;
+      position: absolute;
+      top: 20%;
+      left: 100%; }
 
 .menu-items {
   min-height: 100%;
@@ -109,6 +121,12 @@ a {
     text-decoration: none;
     color: black; }
 
+.title {
+  font-family: BTitrTGEBold, Arial, Helvetica, sans-serif !important; }
+
+.text {
+  font-family: BVahidBold, Arial, Helvetica, sans-serif !important; }
+
 .visitor-position {
   position: fixed;
   top: 30px;
@@ -132,3 +150,5 @@ a {
     position: absolute;
     top: 20%;
     left: 20%; }
+
+/*# sourceMappingURL=app.css.map */

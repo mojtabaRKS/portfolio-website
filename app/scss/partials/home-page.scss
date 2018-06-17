@@ -6,16 +6,16 @@
   right: 5%;
   .header {
     position: absolute;
-    font-size: 2em;
-    z-index: -5;
-    margin-left: 5%;
-    margin-top: 2%;
+    font-size: 5em;
+    margin-left: 35%;
+    margin-top: 20%;
   }
   .description {
     position: absolute;
-    width: 50%;
+    width: 100%;
+    font-size: 3em;
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 30%;
     .read-more {
       width: 20%;
       cursor: pointer;
@@ -32,12 +32,15 @@
   .picture {
     position: absolute;
     top: 20%;
-    left: 40%;
+    left: 20%;
     z-index: -1;
     width: 30%;
     img{
       opacity: .6;
       width: 350px;
+      position: absolute;
+      top: 20%;
+      left: 100%;
     }
   }
 }
