@@ -9,5 +9,8 @@ $(document).ready(function () {
     var parallaxInstance = new Parallax(scene , {
         relativeInput: true
     });
+
+
+    $('#fullpage').fullpage();
 });
 

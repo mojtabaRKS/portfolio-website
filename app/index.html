@@ -13,31 +13,31 @@
     <title>Mojtaba Rakhisi</title>
 </head>
     <body>
-        <div class="menu-items">
-            <input type="hidden" class="menu-active" value="0">
-            <div class="menu-wrapper">
-                <div class="sub-wrapper">
-                    <div class="menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-            <nav>
-                <ul>
-                    <li class="menu-item-list"><a href="#">home</a></li>
-                    <li class="menu-item-list"><a href="#">portfolio</a></li>
-                    <li class="menu-item-list"><a href="#">about</a></li>
-                    <li class="menu-item-list"><a href="#">contact</a></li>
-                </ul>
-            </nav>
-            <div class="menu-description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, distinctio, sapiente? Aperiam at aut, eum
-                    facere fuga illum ipsum nisi perspiciatis, qui quibusdam quis reiciendis ut! Amet aperiam atque consectetur
-                    corporis, deserunt, illo, labore numquam quasi ratione repellat sequi soluta?</p>
-            </div>
-        </div>
+        <!--<div class="menu-items">-->
+            <!--<input type="hidden" class="menu-active" value="0">-->
+            <!--<div class="menu-wrapper">-->
+                <!--<div class="sub-wrapper">-->
+                    <!--<div class="menu">-->
+                        <!--<span></span>-->
+                        <!--<span></span>-->
+                        <!--<span></span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<nav>-->
+                <!--<ul>-->
+                    <!--<li class="menu-item-list"><a href="#">home</a></li>-->
+                    <!--<li class="menu-item-list"><a href="#">portfolio</a></li>-->
+                    <!--<li class="menu-item-list"><a href="#">about</a></li>-->
+                    <!--<li class="menu-item-list"><a href="#">contact</a></li>-->
+                <!--</ul>-->
+            <!--</nav>-->
+            <!--<div class="menu-description">-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, distinctio, sapiente? Aperiam at aut, eum-->
+                    <!--facere fuga illum ipsum nisi perspiciatis, qui quibusdam quis reiciendis ut! Amet aperiam atque consectetur-->
+                    <!--corporis, deserunt, illo, labore numquam quasi ratione repellat sequi soluta?</p>-->
+            <!--</div>-->
+        <!--</div>-->
 
         <div class="visitor-position">
             <p id="page-position-title">Home</p>
@@ -48,21 +48,42 @@
             <i class="fa fa-arrow-down" aria-hidden="true"></i>
         </div>
 
-        <div class="content" id="scene" data-relative-input="true">
-            <div class="" data-depth="0.05">
-                <div class="header title">
-                    <p>به وبسایت من خوش امدید</p>
-                </div>
-                <div class="description text">
-                    <p>
-                        در صفحات بعدی میتوانید از نمونه کارهای من دیدن کنید
-                    </p>
+        <div id="fullpage">
+            <div class="section active">
+                <div class="content" id="scene" data-relative-input="true">
+                    <div class="" data-depth="0.05">
+                        <div class="header title">
+                            <p>به وبسایت من خوش امدید</p>
+                        </div>
+                        <div class="description text">
+                            <p>
+                                در صفحات بعدی میتوانید از نمونه کارهای من دیدن کنید
+                            </p>
+                        </div>
+                    </div>
+                    <div class="picture" data-depth="0.1">
+                        <img src="images/Untitled-1.jpg" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="picture" data-depth="0.1">
-                <img src="images/Untitled-1.jpg" alt="">
+            <div class="section">
+                <div class="portfolio-title">
+                    <h1 class="font-size-5 font-weight-bold fon text-center mt-5">
+                        portfolios
+                    </h1>
+                </div>
+                <div class="slide">
+
+                </div>
+                <div class="slide"> Slide 2 </div>
+                <div class="slide"> Slide 3 </div>
+                <div class="slide"> Slide 4 </div>
             </div>
+            <div class="section">Some section</div>
+            <div class="section">Some section</div>
         </div>
+
+
 
         <script src="../node_modules/jquery/dist/jquery.min.js"></script>
         <script src="../node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
