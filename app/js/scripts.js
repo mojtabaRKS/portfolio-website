@@ -33,11 +33,9 @@ $(document).ready(function(){
         $(".read-more-p").animate({ "padding-bottom" : "-=10px" });
     });
 
-    $("nav li").mouseover(function () {
+    $("nav li").hover(function () {
         $(this).animate({ "padding-left":"+=30px"});
-    });
-
-    $("nav li").mouseleave(function () {
+    } , function () {
         $(this).animate({ "padding-left":"-=30px"});
-    })
+    });
 });
