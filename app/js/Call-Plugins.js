@@ -12,5 +12,7 @@ $(document).ready(function () {
 
 
     $('#fullpage').fullpage();
+
+    $('[data-toggle="tooltip"]').tooltip();
 });
 
