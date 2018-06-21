@@ -1,0 +1,38 @@
+.skill-item {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 100px;
+  height: 150px;
+  position: relative;
+  margin: 20px 0;
+  border: solid 1px black;
+  -webkit-border-radius: 50% / 10%;
+  border-radius: 50% / 10%;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  text-indent: 0.1em;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  cursor: pointer;
+}
+
+.skill-item::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: absolute;
+  content: "";
+  top: 10%;
+  right: -5%;
+  bottom: 10%;
+  left: -5%;
+  -webkit-border-radius: 5% / 50%;
+  border-radius: 5% / 50%;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: none;
+}
