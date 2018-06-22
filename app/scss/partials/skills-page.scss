@@ -2,37 +2,52 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width: 100px;
-  height: 150px;
+  width: 150px;
+  height: 200px;
   position: relative;
-  margin: 20px 0;
+  margin: 20% 0;
   border: solid 1px black;
   -webkit-border-radius: 50% / 10%;
   border-radius: 50% / 10%;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: white;
   text-align: center;
-  text-indent: 0.1em;
-  -o-text-overflow: clip;
-  text-overflow: clip;
   cursor: pointer;
+  overflow: hidden;
+
+  .skill-logo {
+    position: absolute;
+    top: 20%;
+
+    .skill-tiny-logo {
+      width: 85%;
+    }
+  }
+
+  .skill-title {
+    position: absolute;
+    top: 70%;
+    left: -23%;
+    background-color: black;
+    color: white;
+    width: 150%;
+    height: 120%;
+    padding-top: 5%;
+    transition-duration:0.7s;
+    -webkit-transition-duration:0.7s;
+
+    .skill-description {
+      padding: 15% 20%;
+    }
+
+    &:hover {
+      transform:translateY(-140px);
+      -ms-transform:translateY(-140px); /* prefix for IE 9 */
+      -webkit-transform:translateY(-140px); /* prefix for Safari and Chrome */
+    }
+  }
+
 }
 
 .skill-item::before {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  position: absolute;
-  content: "";
-  top: 10%;
-  right: -5%;
-  bottom: 10%;
-  left: -5%;
   -webkit-border-radius: 5% / 50%;
   border-radius: 5% / 50%;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,1);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  text-shadow: none;
 }
