@@ -40,7 +40,7 @@
     transition-duration:0.7s;
     -webkit-transition-duration:0.7s;
 
-    .skill-description {
+    .skill-level {
       padding: 15% 20%;
     }
 
@@ -51,9 +51,31 @@
     }
   }
 
+  &::before {
+    -webkit-border-radius: 5% / 50%;
+    border-radius: 5% / 50%;
+  }
 }
+.skill-description {
+  padding: 5%;
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+  position: absolute;
+  top: 10%;
+  left:15%;
+  background: black;
+  color: white;
 
-.skill-item::before {
-  -webkit-border-radius: 5% / 50%;
-  border-radius: 5% / 50%;
+  .fa-window-close {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 2em;
+
+    &:hover {
+      color: red;
+      cursor: pointer;
+    }
+  }
 }
