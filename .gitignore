@@ -2,3 +2,4 @@ node_modules
 .idea
 inspire
 .sass-cache
+app/css/*
