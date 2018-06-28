@@ -14,7 +14,22 @@ $(".skill").click(function () {
 $(".skill-description").on('click' , '.fa-window-close' , function () {
     $(".skill-description").fadeOut();
     $(".skill-description").find(".excerpt").html('');
+});
 
+$("#click").click(function () {
+    var $click = $(this);
+    if($click.is(':checked') == true) {
+
+        // show menu
+        $click.attr('checked', true);
+
+    } else {
+
+        // hide menu
+        $click.attr('checked', false);
+
+    }
 
 });
+
 

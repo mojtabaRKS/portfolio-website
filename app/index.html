@@ -13,7 +13,23 @@
     <title>Mojtaba Rakhisi</title>
 </head>
     <body>
+        <div class="menu-wrapper">
+            <nav id="menu-content">
+                <ul>
+                    <li><h1>home</h1></li>
+                    <li><h1>portfolios</h1></li>
+                    <li><h1>skills</h1></li>
+                    <li><h1>about</h1></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu">
+            <input type="checkbox" id="click" checked=""/>
 
+            <label for="click">
+                <span class="arrow"></span>
+            </label>
+        </div>
 
         <div class="visitor-position">
             <p id="page-position-title">Home</p>
@@ -25,7 +41,10 @@
         </div>
 
         <div id="fullpage">
-            <div class="section">
+            <div class="section active home-page">
+                <div class="picture" data-depth="0.1">
+                    <img src="images/do-what-you-love2.jpg" alt="">
+                </div>
                 <div class="content" id="scene" data-relative-input="true">
                     <div class="welcome-text" data-depth="0.05">
                         <div class="header title">
@@ -34,9 +53,6 @@
                         <div class="description font-size-2-5">
                             <p>I AM A WEB DEVELOPER</p>
                         </div>
-                    </div>
-                    <div class="picture" data-depth="0.1">
-                        <img src="images/Untitled-1.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -159,7 +175,7 @@
                     </div>
                 </div>
             </div>
-            <div class="section active skills">
+            <div class="section skills">
                 <div class="portfolio-title">
                     <h1 class="font-size-5 font-weight-bold text-center">
                         MY SKILLS
