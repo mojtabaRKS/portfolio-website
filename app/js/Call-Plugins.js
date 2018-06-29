@@ -11,7 +11,24 @@ $(document).ready(function () {
     });
 
 
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+        //Navigation
+        menu: '#menu',
+        lockAnchors: true,
+        navigation: true,
+        navigationPosition: 'right',
+        showActiveTooltip: true,
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom' ,
+
+        afterLoad: function(){
+            if($(this).hasClass("contact-page")) {
+                $(".line-1").addClass("anim-typewriter");
+            }
+        }
+
+    });
+    $.fn.fullpage.afterLoad();
 
     $('[data-toggle="tooltip"]').tooltip();
 });
