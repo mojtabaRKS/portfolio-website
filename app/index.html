@@ -13,18 +13,22 @@
     <title>Mojtaba Rakhisi</title>
 </head>
     <body>
-        <div class="menu-wrapper">
-            <nav id="menu-content">
-                <ul>
-                    <li><h1>home</h1></li>
-                    <li><h1>portfolios</h1></li>
-                    <li><h1>skills</h1></li>
-                    <li><h1>about</h1></li>
-                </ul>
-            </nav>
+        <div class="menu-wrapper hidden">
+            <div class="row">
+                <div class="col-md-6" id="menu-content">
+                    <nav>
+                        <ul>
+                            <li><a href=""><h1>home</h1></a></li>
+                            <li><a href=""><h1>portfolios</h1></a></li>
+                            <li><a href=""><h1>skills</h1></a></li>
+                            <li><a href=""><h1>about</h1></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
         <div class="menu">
-            <input type="checkbox" id="click" checked=""/>
+            <input type="checkbox" id="click"/>
 
             <label for="click">
                 <span class="arrow"></span>
@@ -457,6 +461,7 @@
 
 
         <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="../node_modules/jquery.easing/jquery.easing.min.js"></script>
         <script src="../node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
         <script src="vendor/popper-js/popper.min.js"></script>
         <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
