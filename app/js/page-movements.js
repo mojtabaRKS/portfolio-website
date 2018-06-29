@@ -23,22 +23,21 @@ $("#click").click(function () {
 
         // show menu
         $menu.fadeIn();
-        $menu.find("h1").each(function () {
-            $(this).animate({"top" : 0}, 100 , 'easeInOutElastic')
-        });
+        $menu.find("h1").animate({"top" : 0}, 100 , 'easeInOutElastic');
         $click.attr('checked', true);
 
     } else {
 
         // hide menu
-        $menu.find("h1").each(function () {
-            $(this).animate({"top" : "100px"}, 'easeInOutElastic')
-        });
-        $menu.delay(800).fadeOut();
+        $menu.find("h1").animate({"top" : "100px"}, 'easeInOutElastic');
+        $menu.delay(600).fadeOut();
         $click.attr('checked', false);
 
     }
+});
 
+$(".line-1").on('type' , function () {
+    $(".line-1").addClass("anim-typewriter");
 });
 
 
