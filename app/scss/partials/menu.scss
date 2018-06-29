@@ -5,11 +5,13 @@ $wl:40px; // width size of lines
 //tip: change the value of $rotate and the arrow goes where you want
 $rotate:-180deg;
 
+
+
 .menu {
   position: fixed;
   top: 10%;
   left: 5%;
-  z-index: 1;
+  z-index: 3;
 
   #click{
     display: none;
@@ -95,17 +97,34 @@ $rotate:-180deg;
   background-color: white;
 
   #menu-content {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 5%;
   }
 
   li {
     list-style: none;
-    margin-bottom: 3%;
+    margin: 3%;
     overflow: hidden;
-    border: black solid 1px;
+    border-right: solid white 5px;
+    &:hover {
+      border-color: #295ba0;
+    }
+
     h1 {
       font-size: 5em;
+      position: relative;
+      color: #295ba0;
+      top: 100px;
+      transition-duration:0.7s;
+      -webkit-transition-duration:0.7s;
+      -moz-transition-duration: 0.7s;
+      transition-delay: 0.1s;
+      -webkit-transition-delay: 0.1s;
+      -moz-transition-delay: 0.1s;
+
+      &:hover {
+        transform: translateX(7%);
+      }
     }
   }
 }
