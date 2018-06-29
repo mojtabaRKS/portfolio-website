@@ -23,6 +23,7 @@ $(document).ready(function () {
 
         afterLoad: function(){
             if($(this).hasClass("contact-page")) {
+                $(".line-1").show();
                 $(".line-1").addClass("anim-typewriter");
             }
         }
