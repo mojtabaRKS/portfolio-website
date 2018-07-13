@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../node_modules/font-awesome/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="../node_modules/fullpage.js/dist/jquery.fullpage.min.css">
-    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <link rel="stylesheet" href="{{ asset('node_modules/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('node_modules/font-awesome/css/font-awesome.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('node_modules/fullpage.js/dist/jquery.fullpage.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/front/css/app.css') }}"/>
     <title>Mojtaba Rakhisi</title>
 </head>
 <body>
@@ -38,7 +38,7 @@
 <div id="fullpage">
     <div class="section home-page active">
         <div class="picture" data-depth="0.1">
-            <img src="images/do-what-you-love2.jpg" alt="">
+            <img src="{{ asset('assets/front/images/do-what-you-love2.jpg') }}" alt="">
         </div>
         <div class="content" id="scene" data-relative-input="true">
             <div class="welcome-text" data-depth="0.05">
@@ -182,7 +182,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -200,7 +200,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -218,7 +218,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -236,7 +236,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -254,7 +254,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -272,7 +272,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -292,7 +292,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -310,7 +310,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -328,7 +328,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -346,7 +346,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -364,7 +364,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -382,7 +382,7 @@
                     <div class="skill col-md-2">
                         <div class="skill-item">
                             <div class="skill-logo">
-                                <img src="images/edited/tiny/php.png" class="skill-tiny-logo" alt="">
+                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
                             </div>
                             <div class="skill-title">
                                 <h3>PHP</h3>
@@ -430,7 +430,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/type_machine.gif" id="machine-type" alt="">
+                    <img src="{{ asset('assets/front/images/type_machine.gif') }}" id="machine-type" alt="">
                     <h3>Name : MOJTABA RAKHISI</h3>
                     <h4>Email : <a href="mailto:mojtaba.street@gmail.com">mojtaba.street@gmail.com</a></h4>
                     <div class="socials">
@@ -451,17 +451,17 @@
 
 
 
-<script src="../node_modules/jquery/dist/jquery.min.js"></script>
-<script src="../node_modules/jquery.easing/jquery.easing.min.js"></script>
-<script src="../node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
-<script src="vendor/popper-js/popper.min.js"></script>
-<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="../node_modules/parallax-js/dist/parallax.min.js"></script>
-<script src="../node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
-<script src="../node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
-<script src="vendor/tilt-js/dest/tilt.jquery.min.js"></script>
-<script src="js/page-movements.js"></script>
-<script src="js/Call-Plugins.js"></script>
-<script src="js/scripts.js"></script>
+<script src="{{ asset('node_modules/jquery/dist/jquery.min.js') }}"></script>
+<script src="{{ asset('node_modules/jquery.easing/jquery.easing.min.js') }}"></script>
+<script src="{{ asset('node_modules/fullpage.js/vendors/jquery.easings.min.js') }}"></script>
+<script src="{{ asset('assets/front/vendor/popper-js/popper.min.js') }}"></script>
+<script src="{{ asset('node_modules/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('node_modules/parallax-js/dist/parallax.min.js') }}"></script>
+<script src="{{ asset('node_modules/fullpage.js/dist/jquery.fullpage.min.js') }}"></script>
+<script src="{{ asset('node_modules/fullpage.js/vendors/scrolloverflow.min.js') }}"></script>
+<script src="{{ asset('assets/front/vendor/tilt-js/dest/tilt.jquery.min.js') }}"></script>
+<script src="{{ asset('assets/front/js/page-movements.js') }}"></script>
+<script src="{{ asset('assets/front/js/Call-Plugins.js') }}"></script>
+<script src="{{ asset('assets/front/js/scripts.js') }}"></script>
 </body>
 </html>
