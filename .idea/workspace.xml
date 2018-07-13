@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c59797fd-73f8-47f7-8fd8-8fbd8fba66b7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/BTitrGEBold/BTitrTGEBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/BTitrGEBold/BTitrTGEBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/BTitrGEBold/BTitrTGEBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/BVahidBold/BVahidBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/BVahidBold/BVahidBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/BVahidBold/BVahidBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/oswald/Oswald-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/oswald/Oswald-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/oswald/Oswald-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/fonts/oswald/Oswald-Stencil.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/Untitled-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/do-what-you-love2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/agile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/git.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/jquery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/laravel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/mysql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/redis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/symfony.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/agile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/git.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/jquery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/laravel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/mysql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/redis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/symfony.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/tiny/ubuntu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/edited/ubuntu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/logo/IMG_20180622_001733_592.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/logo/IMG_20180622_001734_881.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/logo/IMG_20180622_001736_661.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/tablexi-mobile-1024x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/type_machine.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/images/web-design-development.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/js/Call-Plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/js/page-movements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/css/climacons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/css/component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/css/component2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/css/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/font/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/font/climacons-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/font/climacons-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/font/climacons-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/font/climacons-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/js/boxgrid.example2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/js/boxgrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/js/jquery.fittext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/ExpandingOverlayEffect/js/modernizr.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/popper-js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/demo/scss/tilt.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/dest/tilt.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/dest/tilt.jquery.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/dest/tilt.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/gulp/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/gulp/tasks/browsersync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/gulp/tasks/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/gulp/tasks/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/gulp/tasks/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/gulp/tasks/scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/gulp/tasks/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/gulp/tasks/watch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/src/tilt.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/tests/tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/tests/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/tilt-js/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/partials/contact-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/partials/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/partials/home-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/partials/menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/partials/portfolio-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/partials/skills-page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/partials/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/vars/fullPageJS.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/assets/sass/vars/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-5.5/resources/views/front/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+    </list>
+    <ignored path="Portfolio_website.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Portfolio_website" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>top</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mojtaba rakhisi" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/asset/css/styles.css" />
+        <option value="$PROJECT_DIR$/asset/scss/jInvertScroll.scss" />
+        <option value="$PROJECT_DIR$/asset/css/menu.css" />
+        <option value="$PROJECT_DIR$/asset/scss/home-page.scss" />
+        <option value="$PROJECT_DIR$/asset/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/asset/scss/portfolio-page.scss" />
+        <option value="$PROJECT_DIR$/asset/js/scripts.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/asset/js/page-movements.js" />
+        <option value="$PROJECT_DIR$/asset/js/Call-Plugins.js" />
+        <option value="$PROJECT_DIR$/asset/scss/menu.scss" />
+        <option value="$PROJECT_DIR$/asset/scss/app.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/scss/partials/fonts.scss" />
+        <option value="$PROJECT_DIR$/app/scss/vars/plugins.scss" />
+        <option value="$PROJECT_DIR$/app/scss/vars/fullPageJS.scss" />
+        <option value="$PROJECT_DIR$/app/vendor/popper-js/popper.min.js" />
+        <option value="$PROJECT_DIR$/app/scss/partials/portfolio-page.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/scss/vars/global.scss" />
+        <option value="$PROJECT_DIR$/app/scss/app.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/scss/partials/skills-page.scss" />
+        <option value="$PROJECT_DIR$/app/scss/partials/home-page.scss" />
+        <option value="$PROJECT_DIR$/app/js/scripts.js" />
+        <option value="$PROJECT_DIR$/app/scss/partials/menu.scss" />
+        <option value="$PROJECT_DIR$/app/scss/partials/contact-page.scss" />
+        <option value="$PROJECT_DIR$/app/scss/partials/styles.scss" />
+        <option value="$PROJECT_DIR$/app/js/page-movements.js" />
+        <option value="$PROJECT_DIR$/app/js/Call-Plugins.js" />
+        <option value="$PROJECT_DIR$/laravel-5.5/.env" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/laravel-5.5/resources/views/front/index.blade.php" />
+        <option value="$PROJECT_DIR$/laravel-5.5/routes/web.php" />
+        <option value="$PROJECT_DIR$/laravel-5.5/public/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/public/assets/front/vendor/tilt-js/package.json" />
+      <path value="$PROJECT_DIR$/public/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Portfolio_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio_website" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel-5.5/public/assets/js" />
+      <recent name="$PROJECT_DIR$/laravel-5.5/public" />
+      <recent name="$PROJECT_DIR$/laravel-5.5/resources/assets/sass" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/laravel-5.5/public/assets/front" />
+      <recent name="$PROJECT_DIR$/laravel-5.5/resources/assets/sass" />
+      <recent name="$PROJECT_DIR$/laravel-5.5/public/assets/panel" />
+      <recent name="$PROJECT_DIR$/laravel-5.5/public/assets" />
+      <recent name="$PROJECT_DIR$/laravel-5.5/public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c59797fd-73f8-47f7-8fd8-8fbd8fba66b7" name="Default" comment="" />
+      <created>1518109527652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518109527652</updated>
+      <workItem from="1518109528975" duration="6157000" />
+      <workItem from="1518219902514" duration="1768000" />
+      <workItem from="1518978323743" duration="10000" />
+      <workItem from="1518979987722" duration="5796000" />
+      <workItem from="1519218790092" duration="17000" />
+      <workItem from="1519317517138" duration="853000" />
+      <workItem from="1519318390901" duration="1791000" />
+      <workItem from="1519412513815" duration="135000" />
+      <workItem from="1519928728483" duration="103000" />
+      <workItem from="1525542921685" duration="1386000" />
+      <workItem from="1526562180202" duration="23611000" />
+      <workItem from="1526609847427" duration="3264000" />
+      <workItem from="1526655369739" duration="15999000" />
+      <workItem from="1526693159584" duration="3047000" />
+      <workItem from="1526862988802" duration="318000" />
+      <workItem from="1527272713311" duration="1695000" />
+      <workItem from="1527274942440" duration="349000" />
+      <workItem from="1527864740810" duration="1854000" />
+      <workItem from="1528217222170" duration="6933000" />
+      <workItem from="1528392559161" duration="524000" />
+      <workItem from="1528996666606" duration="141000" />
+      <workItem from="1528996905076" duration="12712000" />
+      <workItem from="1529082126727" duration="3140000" />
+      <workItem from="1529198885310" duration="1131000" />
+      <workItem from="1529283119579" duration="3262000" />
+      <workItem from="1529359598839" duration="2412000" />
+      <workItem from="1529505179441" duration="8530000" />
+      <workItem from="1529629263254" duration="2943000" />
+      <workItem from="1529668656519" duration="9424000" />
+      <workItem from="1529696049998" duration="7750000" />
+      <workItem from="1530207416535" duration="4904000" />
+      <workItem from="1530279756664" duration="13564000" />
+      <workItem from="1531496856277" duration="1771000" />
+    </task>
+    <task id="LOCAL-00001" summary="changing position of page navigator">
+      <created>1528392613056</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392613056</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding jqueryUI package">
+      <created>1528392640369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392640369</updated>
+    </task>
+    <task id="LOCAL-00003" summary="modify page movement behavior">
+      <created>1528392677324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392677324</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changing portfolio page css structure">
+      <created>1528392706740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392706740</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changing css in main styles file">
+      <created>1528392730852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392730852</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changing scss">
+      <created>1528392746279</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392746279</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changing scss">
+      <created>1528392752229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392752229</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changing json.lock">
+      <created>1528392767074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392767074</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changing styles for portfolios">
+      <created>1529515630083</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515630083</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adding tooltip in callPlugins.js">
+      <created>1529515699947</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515699947</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changing next btn style in fullPage.js plugin">
+      <created>1529515734253</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515734253</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding font-size in global.scss">
+      <created>1529515759254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515759254</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adding tooltip">
+      <created>1529515781449</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515781449</updated>
+    </task>
+    <task id="LOCAL-00014" summary="adding skills section in main page and change portfolios design">
+      <created>1529515825734</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515825734</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding popper.js to project">
+      <created>1529515845565</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515845565</updated>
+    </task>
+    <task id="LOCAL-00016" summary="deleting portfolio image from images directory">
+      <created>1529515900316</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515900316</updated>
+    </task>
+    <task id="LOCAL-00017" summary="changing portfolios design in portfolios.scss">
+      <created>1529515923633</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515923633</updated>
+    </task>
+    <task id="LOCAL-00018" summary="styling">
+      <created>1529515934207</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515934207</updated>
+    </task>
+    <task id="LOCAL-00019" summary="adding skills logos">
+      <created>1529515976373</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1529515976373</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mapping styles.scss">
+      <created>1529516005889</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1529516005889</updated>
+    </task>
+    <task id="LOCAL-00021" summary="deleting scratch files">
+      <created>1529636155044</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1529636155044</updated>
+    </task>
+    <task id="LOCAL-00022" summary="making skill-page.scss">
+      <created>1529636189682</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1529636189682</updated>
+    </task>
+    <task id="LOCAL-00023" summary="adding compass to project">
+      <created>1529636279241</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1529636279241</updated>
+    </task>
+    <task id="LOCAL-00024" summary="adding new pictures for skills logo">
+      <created>1529636347281</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1529636347281</updated>
+    </task>
+    <task id="LOCAL-00025" summary="reStyle the skills-page.scss">
+      <created>1529636707481</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1529636707481</updated>
+    </task>
+    <task id="LOCAL-00026" summary="including skills-page to app.scss">
+      <created>1529637255243</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1529637255243</updated>
+    </task>
+    <task id="LOCAL-00027" summary="adding skill items">
+      <created>1529637278078</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1529637278078</updated>
+    </task>
+    <task id="LOCAL-00028" summary="styling for skill items">
+      <created>1529637299695</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1529637299695</updated>
+    </task>
+    <task id="LOCAL-00029" summary="skills page completed">
+      <created>1529671772924</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1529671772924</updated>
+    </task>
+    <task id="LOCAL-00030" summary="skills page completed">
+      <created>1529672626232</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1529672626232</updated>
+    </task>
+    <task id="LOCAL-00031" summary="tooltip restyling">
+      <created>1529672646683</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1529672646683</updated>
+    </task>
+    <task id="LOCAL-00032" summary="completing skills-page">
+      <created>1529696315165</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1529696315165</updated>
+    </task>
+    <task id="LOCAL-00033" summary="adding machine type gif for contact-page">
+      <created>1529696333368</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1529696333368</updated>
+    </task>
+    <task id="LOCAL-00034" summary="adding typed.js to project">
+      <created>1529696541429</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1529696541429</updated>
+    </task>
+    <task id="LOCAL-00035" summary="removing typed.js from project">
+      <created>1529701194065</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1529701194065</updated>
+    </task>
+    <task id="LOCAL-00036" summary="completing menu">
+      <created>1530293031061</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1530293031061</updated>
+    </task>
+    <task id="LOCAL-00037" summary="styling menu">
+      <created>1530293048118</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1530293048118</updated>
+    </task>
+    <task id="LOCAL-00038" summary="adding jquery.easing">
+      <created>1530293068016</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1530293068016</updated>
+    </task>
+    <task id="LOCAL-00039" summary="global styling">
+      <created>1530293099077</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1530293099077</updated>
+    </task>
+    <task id="LOCAL-00040" summary="moving menu">
+      <created>1530293120972</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1530293120972</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add class typewriter on load contact-page">
+      <created>1530297612220</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1530297612220</updated>
+    </task>
+    <task id="LOCAL-00042" summary="styling on anim_typewriter">
+      <created>1530297631233</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1530297631233</updated>
+    </task>
+    <task id="LOCAL-00043" summary="anim_typewriter trigger after load contact-page">
+      <created>1530297904581</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1530297904581</updated>
+    </task>
+    <task id="LOCAL-00044" summary="changing html of main page">
+      <created>1530297954190</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1530297954190</updated>
+    </task>
+    <task id="LOCAL-00045" summary="anim type writer handle loading">
+      <created>1530297977917</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1530297977917</updated>
+    </task>
+    <task id="LOCAL-00046" summary="styling on navigation dots">
+      <created>1530297994912</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1530297994912</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="147294000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32792208" />
+      <window_info id="npm" order="0" sideWeight="0.5016234" side_tool="true" weight="0.19601594" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32428116" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49837664" visible="true" weight="0.21912351" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32988048" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info id="npm" order="0" sideWeight="0.5016234" side_tool="true" weight="0.19601594" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49837664" visible="true" weight="0.2" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32988048" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3262987" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32792208" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleting scratch files" />
+    <MESSAGE value="making skill-page.scss" />
+    <MESSAGE value="adding compass to project" />
+    <MESSAGE value="adding new pictures for skills logo" />
+    <MESSAGE value="reStyle the skills-page.scss" />
+    <MESSAGE value="including skills-page to app.scss" />
+    <MESSAGE value="adding skill items" />
+    <MESSAGE value="styling for skill items" />
+    <MESSAGE value="skills page completed" />
+    <MESSAGE value="tooltip restyling" />
+    <MESSAGE value="completing skills-page" />
+    <MESSAGE value="adding machine type gif for contact-page" />
+    <MESSAGE value="adding typed.js to project" />
+    <MESSAGE value="removing typed.js from project" />
+    <MESSAGE value="completing menu" />
+    <MESSAGE value="styling menu" />
+    <MESSAGE value="adding jquery.easing" />
+    <MESSAGE value="global styling" />
+    <MESSAGE value="moving menu" />
+    <MESSAGE value="add class typewriter on load contact-page" />
+    <MESSAGE value="styling on anim_typewriter" />
+    <MESSAGE value="anim_typewriter trigger after load contact-page" />
+    <MESSAGE value="changing html of main page" />
+    <MESSAGE value="anim type writer handle loading" />
+    <MESSAGE value="styling on navigation dots" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling on navigation dots" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/asset/scss/global.scss" />
+    <entry file="file://$PROJECT_DIR$/app/css/styles.css" />
+    <entry file="file://$PROJECT_DIR$/asset/images/cool_nebula.jpg" />
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery-ui/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="70" selection-start-line="60" selection-start-column="20" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/inspire/7aa599a52d26ba3743e228a51b28a4fd.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/inspire/372d483141045517fb62bc3f3e79cc05.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/inspire/itp-animation.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/inspire/spaced_2.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/inspire/spaced_1.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/inspire/drbl_2.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/inspire/hof.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/amqp/amqp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/app/css/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/assets/front/images/Untitled-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/partials/fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/vars/fullPageJS.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/font-awesome/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@fortawesome/fontawesome-free-webfonts/README.md" />
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/assets/front/vendor/popper-js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="2186" column="5" selection-start-line="2186" selection-start-column="2" selection-end-line="2186" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/partials/portfolio-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/app.css.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/vars/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/assets/front/images/tablexi-mobile-1024x600.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/assets/front/images/web-design-development.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/assets/front/images/do-what-you-love2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/partials/home-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/assets/front/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/partials/skills-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/partials/menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="116" column="17" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/assets/front/js/Call-Plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/partials/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/partials/contact-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/assets/front/js/page-movements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mojtabarakhisi.com/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="427" column="59" selection-end-line="467" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/resources/assets/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/resources/assets/sass/views/front/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/assets/js/Call-Plugins.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/resources/views/front/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10304">
+          <caret line="448" column="10" selection-start-line="448" selection-start-column="10" selection-end-line="448" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-5.5/public/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
