@@ -1,0 +1,42 @@
+.portfolio-description {
+  margin-left: 8%;
+  width: 50%;
+  a {
+    color: cornflowerblue;
+    &:hover {
+      color: #2E8A5C;
+    }
+  }
+}
+.tasks {
+  text-align: center;
+}
+
+.fa {
+  position: relative;
+  display: inline-block;
+}
+
+.fa .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.fa:hover .tooltiptext {
+  visibility: visible;
+}
+
+#cotint-group {
+  .fa {
+    color: #00a564;
+  }
+}

@@ -1,0 +1,49 @@
+.home-page {
+  .picture {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    img{
+      opacity: .6;
+    }
+  }
+  overflow: hidden;
+}
+
+.content {
+
+
+  position: absolute;
+  top: 11%;
+  bottom: 11%;
+  left: 5%;
+  right: 5%;
+  .header {
+    position: absolute;
+    font-size: 5em;
+    margin-left: 35%;
+    margin-top: 20%;
+  }
+  .description {
+    position: absolute;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 30%;
+    .read-more {
+      width: 20%;
+      cursor: pointer;
+      .read-more-p {
+        z-index: 9999;
+        width: 14%;
+        padding-bottom: 1.5%;
+        max-width: inherit;
+        border-bottom: 2px solid black;
+      }
+      margin-top: 10%;
+    }
+  }
+
+}

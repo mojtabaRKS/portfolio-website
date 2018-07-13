@@ -1,0 +1,70 @@
+{% extends 'panel/layouts/master.html.twig' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header card-header-primary">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h4 class="card-title ">Skills</h4>
+                            <p class="card-category">if you want create an new skill just click on right below icon</p>
+                        </div>
+                        <div class="col-md-2 ">
+                            <a rel="tooltip" href="{{ path('panel.create.skills') }}" class="btn btn-simple btn-info add-btn">
+                                <i class="material-icons add-icon">
+                                    add
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class=" text-primary">
+                                <tr>
+                                    <th class="text-center">#</th>
+                                    <th>Name</th>
+                                    <th>description</th>
+                                    <th>tools</th>
+                                    <th class="text-right">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {% for skill in skills %}
+                                <tr>
+                                    <td class="text-center">2</td>
+                                    <td>{{ skill.name }}</td>
+                                    <td>{{ skill.description }}</td>
+                                    <td>{{ skill.tools }}</td>
+                                    <td class="td-actions text-right ">
+                                        <button type="button" rel="tooltip" class="btn btn-info btn-round" data-id="{{ skill.id }}">
+                                            {% if(skill.is_active) %}
+                                                <i class="material-icons">check</i>
+                                            {% else %}
+                                                <i class="material-icons">close</i>
+                                            {% endif %}
+                                        </button>
+                                        <a href="{{ path('panel.edit.skills' , {'id' : skill.id}) }}">
+                                            <button type="button" rel="tooltip" class="btn btn-success btn-round">
+                                                <i class="material-icons">edit</i>
+                                            </button>
+                                        </a>
+                                        <form action="{{ path('panel.delete.skills' , {'id' : skill.id}) }}" method="post" class="d-inline">
+                                            <input type="hidden" name="_method" value="DELETE">
+                                            <button type="submit" rel="tooltip" class="btn btn-danger btn-round">
+                                                <i class="material-icons">delete</i>
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

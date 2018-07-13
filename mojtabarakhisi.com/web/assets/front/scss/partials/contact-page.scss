@@ -1,0 +1,118 @@
+.contact-page {
+  background-color: #bee7df;
+  .container {
+    padding-top: 2% ;
+  }
+  #machine-type {
+    width: 80%;
+  }
+
+  .socials {
+    font-size: 3em;
+    .fa-twitter:hover {
+      color: #6400e5;
+    }
+    .fa-instagram:hover {
+      color: #de0076;
+    }
+    .fa-linkedin:hover {
+      color: #314d84;
+    }
+    .fa-whatsapp:hover {
+      color: #00bb19;
+    }
+    .fa-slack:hover {
+      color: #20b987;
+    }
+    .fa-telegram:hover {
+      color: #3287ca;
+    }
+    .fa-stack-overflow:hover {
+      color: #f79423;
+    }
+  }
+
+  .terminal {
+    #bar {
+      text-align: center;
+      height: 25px;
+      background-color: #AFADAD;
+      margin: 0 auto;
+      font-family: monospace;
+      padding: auto;
+      float: none;
+      border-radius: 5px 5px 0 0 ;
+    }
+    #red {
+      background-color: #E94B35;
+      border-radius: 100%;
+      width: 15px;
+      height: 15px;
+      margin: 0 auto;
+      left: -47%;
+      bottom: -20%;
+      position:relative;
+    }
+    #yellow {
+      background-color: #f0f000;
+      border-radius: 100%;
+      width: 15px;
+      height: 15px;
+      margin: 0 auto;
+      left: -44%;
+      bottom: 40%;
+      position:relative;
+      display: block;
+    }
+    #green {
+      background-color: #1AAF5C;
+      border-radius: 100%;
+      width: 15px;
+      height: 15px;
+      margin: 0 auto;
+      left: -41%;
+      bottom: 99%;
+      position:relative;
+      display: block;
+    }
+    #screen {
+      background-color: black;
+      height: 400px;
+      border-radius: 0 0 2% 2%;
+      margin: 0 auto;
+      padding: 2% 0 0 2%;
+      color: #08ce68;
+
+      .font {
+        font-family: monospace;
+        font-size: 15px;
+        text-align: left;
+        position: static;
+      }
+
+      .line-1{
+        position: relative;
+
+        border-right: 2px solid rgba(255,255,255,.75);
+
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+      }
+
+      /* Animation */
+      .anim-typewriter{
+        animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+      }
+      @keyframes typewriter{
+        from{width: 0;}
+        to{width: 20em;}
+      }
+      @keyframes blinkTextCursor{
+        from{border-right-color: rgba(255,255,255,.75);}
+        to{border-right-color: transparent;}
+      }
+    }
+  }
+}
