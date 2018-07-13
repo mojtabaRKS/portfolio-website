@@ -11,6 +11,27 @@
 |
 */
 
+
+# ------------- front routes --------------
+
 Route::get('/', function () {
     return view('front.index');
+})->name('index');
+
+# ---------- end of front routes ----------
+
+
+
+
+#----------- panel routes --------------
+
+Route::group([
+    'prefix' => 'panel' ,
+    'namespace' => 'Panel' ,
+//    'middleware' => ['auth']
+] , function () {
+   Route::get('/' , 'IndexController@index')->name('dashboard');
+
+   Route::resource('skills' , 'SkillsController');
 });
+# ---------end of panel routes ------------
