@@ -19,6 +19,8 @@
     <link href="{{ asset('assets/panel/css/material-dashboard.css?v=2.1.0') }}" rel="stylesheet"/>
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="{{ asset('assets/panel/demo/demo.css') }}" rel="stylesheet"/>
+
+    @stack('styles')
 </head>
 
 <body class="">
@@ -39,6 +41,7 @@
 <script src="{{ asset('assets/panel/js/core/popper.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('assets/panel/js/core/bootstrap-material-design.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('assets/panel/js/plugins/perfect-scrollbar.jquery.min.js') }}"></script>
+<script src="{{ asset('vendor/laravel-filemanager/js/lfm.js') }}"></script>
 <!--  Google Maps Plugin    -->
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 <!-- Chartist JS -->
@@ -49,6 +52,7 @@
 <script src="{{ asset('assets/panel/js/material-dashboard.min.js?v=2.1.0') }}" type="text/javascript"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 <script src="{{ asset('assets/panel/demo/demo.js') }}"></script>
+<script src="{{ asset('assets/panel/js/scripts.js') }}"></script>
 <script>
     $(document).ready(function () {
         // Javascript method's body can be found in assets/js/demos.js
