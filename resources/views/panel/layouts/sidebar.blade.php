@@ -1,4 +1,4 @@
-<div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
+<div class="sidebar" data-color="purple" data-background-color="white" data-image="{{ asset('assets/panel/img/sidebar-1.jpg') }}">
     <!--
       Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -17,8 +17,8 @@
                     <p>Dashboard</p>
                 </a>
             </li>
-            <li class="nav-item active  ">
-                <a class="nav-link" href="{{ route('skills') }}">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('skills.index') }}">
                     <i class="material-icons">fitness_center</i>
                     <p>Skills</p>
                 </a>
