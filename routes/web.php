@@ -11,7 +11,6 @@
 |
 */
 
-
 # ------------- front routes --------------
 
 Route::get('/', function () {
@@ -28,7 +27,7 @@ Route::get('/', function () {
 Route::group([
     'prefix' => 'panel' ,
     'namespace' => 'Panel' ,
-//    'middleware' => ['auth']
+    'middleware' => ['auth']
 ] , function () {
    Route::get('/' , 'IndexController@index')->name('dashboard');
 
@@ -36,3 +35,8 @@ Route::group([
    Route::get('skills/{skill}/changeStatus' , 'SkillController@changeSkillActivation')->name('skills.change.activation');
 });
 # ---------end of panel routes ------------
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
