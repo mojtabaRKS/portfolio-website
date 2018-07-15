@@ -31,7 +31,11 @@ Route::group([
 ] , function () {
    Route::get('/' , 'IndexController@index')->name('dashboard');
 
-   Route::resource('skills' , 'SkillController');
+   Route::resources([
+       'skills' => 'SkillController' ,
+       'portfolios' => 'PortfolioController' ,
+       'attributes' => 'AttributeController'
+   ]);
    Route::get('skills/{skill}/changeStatus' , 'SkillController@changeSkillActivation')->name('skills.change.activation');
 });
 # ---------end of panel routes ------------
