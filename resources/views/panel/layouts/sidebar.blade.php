@@ -23,6 +23,18 @@
                     <p>Skills</p>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('portfolios.index') }}">
+                    <i class="material-icons">assignment_ind</i>
+                    <p>Portfolios</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('attributes.index') }}">
+                    <i class="material-icons">extension</i>
+                    <p>Attributes</p>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
