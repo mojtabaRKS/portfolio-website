@@ -14,30 +14,119 @@
 
   <title>{{ trans('laravel-filemanager::lfm.title-page') }}</title>
   <link rel="shortcut icon" type="image/png" href="{{ asset('vendor/laravel-filemanager/img/folder.png') }}">
-  <link rel="stylesheet" href="{{ asset('node_modules/bootstrap/dist/css/bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('node_modules/font-awesome/css/font-awesome.min.css') }}">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ asset('vendor/laravel-filemanager/css/cropper.min.css') }}">
-  <style>{!! \File::get(base_path('vendor/unisharp/laravel-filemanager/public/css/lfm.css')) !!}</style>
+{{--  <style>{!! \File::get(base_path('vendor/unisharp/laravel-filemanager/public/css/lfm.css')) !!}</style>--}}
   {{-- Use the line below instead of the above if you need to cache the css. --}}
-{{--   <link rel="stylesheet" href="{{ asset('/vendor/laravel-filemanager/css/lfm.css') }}">--}}
+   <link rel="stylesheet" href="{{ asset('/vendor/laravel-filemanager/css/lfm.css') }}">
   <link rel="stylesheet" href="{{ asset('vendor/laravel-filemanager/css/mfb.css') }}">
   <link rel="stylesheet" href="{{ asset('vendor/laravel-filemanager/css/dropzone.min.css') }}">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.css">
+  <style>
+    @font-face {
+      font-family:'sans';
+      src:url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Light.woff')}}),
+      url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Light.eot')}}),
+      url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Light.eot?#iefix')}}),
+      url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Light.ttf')}});
+      font-weight:normal;
+      font-style:normal;
+      font-variant:normal;
+    }
+    @font-face {
+      font-family:'sansMedium';
+      src:url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Medium.woff')}}),
+      url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Medium.eot')}}),
+      url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Medium.eot?#iefix')}}),
+      url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Medium.ttf')}});
+      font-weight:bold;
+    }
+    @font-face {
+      font-family:'sansBold';
+      src:url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Bold.woff')}}),
+      url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Bold.eot')}}),
+      url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Bold.eot?#iefix')}}),
+      url({{ asset('vendor/laravel-filemanager/fonts/IRANSans/IRANSansWeb_Bold.ttf')}});
+      font-weight:bold;
+    }
+    body {
+      font-family: sans !important;
+    }
+    .rtl {
+      direction: rtl;
+    }
+    .ltr {
+      direction: ltr;
+    }
+    .float-right {
+      float: right;
+    }
+    .txt-r {
+      text-align: right;
+    }
+    .over-hide {
+      overflow-x: hidden;
+    }
+    .btn {
+      float: left;
+    }
+    .modal-title {
+      margin-right: 25px;
+    }
+    .modal-title {
+      direction: rtl;
+    }
+    .folder-item {
+      color: #777 !important;
+      font-size: 14px;
+    }
+    td {
+      text-align: center;
+    }
+    th {
+      text-align: center;
+    }
+    .actions {
+      text-align: center !important;
+    }
+    .btn-xs {
+      font-size: 12px;
+      height: 22px;
+    }
+    .selec {
+      border: 0.07em solid #319863;
+    }
+
+    #searchInput {
+      margin-bottom: 10px;
+    }
+
+    .square img {
+      padding: 5px !important;
+      position: absolute !important;
+      max-width: 100% !important;
+      max-height: 100% !important;
+      margin: 0 auto !important;
+      display: inline-block !important;
+      vertical-align: middle !important;
+    }
+  </style>
 </head>
 <body>
   <div class="container-fluid" id="wrapper">
     <div class="panel panel-primary hidden-xs">
-      <div class="panel-heading">
+      <div class="panel-heading rtl">
         <h1 class="panel-title">{{ trans('laravel-filemanager::lfm.title-panel') }}</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-2 hidden-xs">
+      <div class="col-md-2 col-xs-2 col-sm-2 hidden-xs float-right">
         <div id="tree"></div>
       </div>
 
-      <div class="col-sm-10 col-xs-12" id="main">
-        <nav class="navbar navbar-default" id="nav">
+      <div class="col-md-10 col-xs-10 col-sm-10" id="main">
+        <nav class="navbar navbar-default rtl" id="nav">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-buttons">
               <span class="sr-only">Toggle navigation</span>
@@ -89,7 +178,7 @@
 
         <div id="alerts"></div>
 
-        <div id="content"></div>
+        <div id="content" class="rtl"></div>
       </div>
 
       <ul id="fab">
@@ -145,8 +234,8 @@
     <img src="{{asset('vendor/laravel-filemanager/img/loader.svg')}}">
   </div>
 
-  <script src="{{ asset('node_modules/jquery/dist/jquery.min.js') }}"></script>
-  <script src="{{ asset('node_modules/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
   <script src="{{ asset('vendor/laravel-filemanager/js/cropper.min.js') }}"></script>
@@ -199,15 +288,15 @@
       init: function() {
         var _this = this; // For the closure
         this.on('success', function(file, response) {
-          if (response == 'OK') {
+          if (true) {
             refreshFoldersAndItems('OK');
           } else {
             this.defaultOptions.error(file, response.join('\n'));
           }
       });
       },
-      acceptedFiles: "{{ lcfirst(str_singular(request('type') ?: '')) == 'image' ? implode(',', config('lfm.valid_image_mimetypes')) : implode(',', config('lfm.valid_file_mimetypes')) }}",
-      maxFilesize: ({{ lcfirst(str_singular(request('type') ?: '')) == 'image' ? config('lfm.max_image_size') : config('lfm.max_file_size') }} / 1000)
+      acceptedFiles: "{{ lcfirst(str_singular(request('type'))) == 'image' ? implode(',', config('lfm.valid_image_mimetypes')) : implode(',', config('lfm.valid_file_mimetypes')) }}",
+      maxFilesize: ({{ lcfirst(str_singular(request('type'))) == 'image' ? config('lfm.max_image_size') : config('lfm.max_file_size') }} / 1000)
     }
   </script>
 </body>
