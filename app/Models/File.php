@@ -17,4 +17,12 @@ class File extends Model
     {
         return $this->hasMany(Skill::class);
     }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function portfolios()
+    {
+        return $this->hasMany(Portfolio::class);
+    }
 }
