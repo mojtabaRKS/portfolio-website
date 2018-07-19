@@ -1,5 +1,7 @@
 @extends('panel.layouts.master')
 
+@section('title' , 'Skills')
+
 @section('content')
 
     <div class="col-md-12">

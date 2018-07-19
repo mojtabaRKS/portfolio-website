@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Models\Role;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
@@ -28,16 +29,20 @@ class RegisterController extends Controller
      * @var string
      */
     protected $redirectTo;
+    /**
+     * @var User
+     */
+    private $user;
 
     /**
      * Create a new controller instance.
-     *
-     * @return void
+     * @param User $user
      */
-    public function __construct()
+    public function __construct(User $user)
     {
-        $this->middleware('guest');
         $this->redirectTo = route('dashboard');
+        $this->middleware('guest');
+        $this->user = $user;
     }
 
     /**
@@ -63,10 +68,20 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-        ]);
+        if($this->user->where('email' , $data['email'])->first()) {
+
+            return redirect()->back();
+
+        } else {
+            $role = Role::where('name', 'user')->get()->first();
+            $user = $this->user->create([
+                'name' => $data['name'],
+                'email' => $data['email'],
+                'password' => bcrypt($data['password']),
+            ]);
+            $user->attachRole($role);
+
+            return $user;
+        }
     }
 }

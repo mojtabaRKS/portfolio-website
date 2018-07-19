@@ -89,7 +89,7 @@ class SkillController extends Controller
     public function edit(Skill $skill)
     {
         return view('panel.skills.edit' , [
-            'skill' => $skill->with('image')->first()
+            'skill' => $skill->with('file')->first()
         ]);
     }
 

@@ -27,7 +27,7 @@ Route::get('/', function () {
 Route::group([
     'prefix' => 'panel' ,
     'namespace' => 'Panel' ,
-    'middleware' => ['auth']
+    'middleware' => ['auth' , 'checkAdmin']
 ] , function () {
    Route::get('/' , 'IndexController@index')->name('dashboard');
 

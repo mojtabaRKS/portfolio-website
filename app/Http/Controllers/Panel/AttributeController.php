@@ -8,6 +8,22 @@ use App\Http\Controllers\Controller;
 
 class AttributeController extends Controller
 {
+    private $redirectTo;
+    /**
+     * @var Attribute
+     */
+    private $attribute;
+
+    /**
+     * AttributeController constructor.
+     * @param Attribute $attribute
+     */
+    public function __construct(Attribute $attribute)
+    {
+        $this->redirectTo = route('attributes.index');
+        $this->attribute = $attribute;
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -15,7 +31,9 @@ class AttributeController extends Controller
      */
     public function index()
     {
-        //
+        return view('panel.attributes.index' , [
+            'attributes' => $this->attribute->latest()->get()
+        ]);
     }
 
     /**
@@ -25,7 +43,7 @@ class AttributeController extends Controller
      */
     public function create()
     {
-        //
+        return view('panel.attributes.create');
     }
 
     /**
@@ -36,7 +54,17 @@ class AttributeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request , [
+            'name' => 'required' ,
+            'description' => 'required' ,
+            'icon' => 'required' ,
+        ]);
+
+        $fields = $this->renameRequest($request->except(['_token' , '_method']));
+
+        $this->attribute->create($fields);
+
+        return redirect($this->redirectTo);
     }
 
     /**
@@ -58,7 +86,9 @@ class AttributeController extends Controller
      */
     public function edit(Attribute $attribute)
     {
-        //
+        return view('panel.attributes.edit' , [
+           'attribute' => $attribute
+        ]);
     }
 
     /**
@@ -70,7 +100,17 @@ class AttributeController extends Controller
      */
     public function update(Request $request, Attribute $attribute)
     {
-        //
+        $this->validate($request , [
+            'name' => 'required' ,
+            'description' => 'required' ,
+            'icon' => 'required' ,
+        ]);
+
+        $fields = $this->renameRequest($request->except(['_token' , '_method']));
+
+        $attribute->update($fields);
+
+        return redirect($this->redirectTo);
     }
 
     /**
@@ -81,6 +121,23 @@ class AttributeController extends Controller
      */
     public function destroy(Attribute $attribute)
     {
-        //
+        try {
+            $attribute->delete();
+        } catch (\Exception $e) {
+        }
+        return redirect($this->redirectTo);
+    }
+
+    /**
+     * @param $request
+     * @return array
+     */
+    private function renameRequest($request)
+    {
+        return [
+            'name' => $request['name'] ,
+            'description' => $request['description'] ,
+            'icon' => $request['icon'] ,
+        ];
     }
 }
