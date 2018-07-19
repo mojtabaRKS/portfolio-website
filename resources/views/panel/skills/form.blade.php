@@ -8,13 +8,15 @@
     <div class="col-md-4">
         <div class="form-group">
             <label for="percent" class="bmd-label-floating">Percent</label>
-            <input type="text" class="form-control" name="percent" id="percent" value="{{ $skill->percent or old('percent') }}">
+            <input type="text" class="form-control" name="percent" id="percent"
+                   value="{{ $skill->percent or old('percent') }}">
         </div>
     </div>
     <div class="col-md-4">
         <div class="form-check">
             <label class="form-check-label">
-                <input class="form-check-input" name="is_active" {{ (isset($skill) && $skill->is_active) ? 'checked' : '' }} type="checkbox">
+                <input class="form-check-input" name="is_active"
+                       {{ (isset($skill) && $skill->is_active) ? 'checked' : '' }} type="checkbox">
                 is Active ?
                 <span class="form-check-sign">
               <span class="check"></span>
@@ -36,13 +38,29 @@
     </textarea>
 </div>
 <div class="form-group">
-        <div class="input-group">
-        <span class="input-group-btn">
-     <a id="lfm" data-input="thumbnail" data-preview="holder" class="text-white btn btn-primary">
-       <i class="fa fa-picture-o"></i> Choose
-     </a>
-   </span>
-        <input id="thumbnail" class="form-control" type="text" name="filepath">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="input-group">
+                <span class="input-group-btn">
+                    <a id="lfm" data-input="thumbnail" data-preview="holder" class="text-white btn btn-primary">
+                        <i class="fa fa-picture-o"></i> Choose
+                    </a>
+                </span>
+                <input id="thumbnail" class="form-control" type="text"  name="filepath" value="
+                    @if(isset($skill) && !empty($skill->file))
+                        {{ $skill->file->name }}
+                    @endif
+                ">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <img id="holder" style="margin-top:15px;max-height:100px;"
+                 src="
+                    @if(isset($skill) && !empty($skill->file))
+                        {{ asset($skill->file->name) }}
+                    @endif
+                 ">
+        </div>
     </div>
-    <img id="holder" style="margin-top:15px;max-height:100px;" src="">
+
 </div>
