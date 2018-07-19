@@ -13,7 +13,7 @@ class Skill extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function image()
+    public function file()
     {
         return $this->belongsTo(File::class);
     }
