@@ -15,6 +15,8 @@ class CreateAttributePortfolioTable extends Migration
     {
         Schema::create('attribute_portfolio', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('attribute_id')->unsigned();
+            $table->integer('portfolio_id')->unsigned();
             $table->timestamps();
         });
     }
