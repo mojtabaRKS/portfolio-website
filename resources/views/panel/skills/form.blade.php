@@ -27,15 +27,11 @@
 </div>
 <div class="form-group">
     <label for="description">Description</label>
-    <textarea class="form-control" name="description" id="description" cols="30" rows="5">
-        {{ $skill->description or old('description') }}
-    </textarea>
+    <textarea class="form-control" name="description" id="description" cols="30" rows="5">{{ $skill->description or old('description') }}</textarea>
 </div>
 <div class="form-group">
     <label for="tools">Tools</label>
-    <textarea class="form-control" name="tools" id="tools" cols="30" rows="5">
-        {{ $skill->tools or old('tools') }}
-    </textarea>
+    <textarea class="form-control" name="tools" id="tools" cols="30" rows="5">{{ $skill->tools or old('tools') }}</textarea>
 </div>
 <div class="form-group">
     <div class="row">
