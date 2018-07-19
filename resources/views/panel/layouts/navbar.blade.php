@@ -24,9 +24,9 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#pablo">
-                        <i class="material-icons">dashboard</i>
+                        <i class="material-icons">person</i>
                         <p class="d-lg-none d-md-block">
-                            Stats
+                            Account
                         </p>
                     </a>
                 </li>
@@ -47,13 +47,13 @@
                         <a class="dropdown-item" href="#">Another One</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#pablo">
-                        <i class="material-icons">person</i>
-                        <p class="d-lg-none d-md-block">
-                            Account
-                        </p>
-                    </a>
+                <li class="nav-item form-group">
+                    <form class="nav-link" action="{{ route('logout') }}" method="post">
+                        {{ csrf_field() }}
+                        <button class="btn-danger btn">
+                            <i class="material-icons mb-0 mt-0">exit_to_app</i>
+                        </button>
+                    </form>
                 </li>
             </ul>
         </div>

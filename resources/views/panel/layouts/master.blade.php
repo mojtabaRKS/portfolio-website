@@ -17,8 +17,11 @@
     <link rel="stylesheet" href="{{ asset('node_modules/font-awesome/css/font-awesome.min.css') }}">
     <!-- CSS Files -->
     <link href="{{ asset('assets/panel/css/material-dashboard.css?v=2.1.0') }}" rel="stylesheet"/>
+    <link href="{{ asset('node_modules/select2/dist/css/select2.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('node_modules/fontawesome-iconpicker/dist/css/fontawesome-iconpicker.min.css') }}" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="{{ asset('assets/panel/demo/demo.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('assets/panel/css/styles.css') }}" rel="stylesheet"/>
 
     @stack('styles')
 </head>
@@ -41,7 +44,11 @@
 <script src="{{ asset('assets/panel/js/core/popper.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('assets/panel/js/core/bootstrap-material-design.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('assets/panel/js/plugins/perfect-scrollbar.jquery.min.js') }}"></script>
+<script src="{{ asset('node_modules/select2/dist/js/select2.min.js') }}"></script>
+<script src="{{ asset('node_modules/fontawesome-iconpicker/dist/js/fontawesome-iconpicker.min.js') }}"></script>
 <script src="{{ asset('vendor/laravel-filemanager/js/lfm.js') }}"></script>
+<script src="{{ asset('assets/panel/js/icons.js') }}"></script>
+<script src="{{ asset('assets/panel/js/icons.js') }}"></script>
 <!--  Google Maps Plugin    -->
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 <!-- Chartist JS -->
