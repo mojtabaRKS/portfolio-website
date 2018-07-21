@@ -14,10 +14,13 @@ class CreateAttributePortfolioTable extends Migration
     public function up()
     {
         Schema::create('attribute_portfolio', function (Blueprint $table) {
-            $table->increments('id');
             $table->integer('attribute_id')->unsigned();
             $table->integer('portfolio_id')->unsigned();
-            $table->timestamps();
+        });
+
+        Schema::table('attribute_portfolio' , function (Blueprint $table) {
+            $table->foreign('attribute_id')->references('id')->on('attributes')->onDelete('cascade');
+            $table->foreign('portfolio_id')->references('id')->on('portfolios')->onDelete('cascade');
         });
     }
 
@@ -28,6 +31,10 @@ class CreateAttributePortfolioTable extends Migration
      */
     public function down()
     {
+        Schema::table('attribute_portfolio' , function (Blueprint $table) {
+            $table->dropForeign('attribute_portfolio_attribute_id_foreign');
+            $table->dropForeign('attribute_portfolio_portfolio_id_foreign');
+        });
         Schema::dropIfExists('attribute_portfolio');
     }
 }
