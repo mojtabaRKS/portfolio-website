@@ -134,6 +134,8 @@ class PortfolioController extends Controller
 
         $portfolio->update($fields);
 
+        $this->setAttributes($portfolio, $request->get('attributes'));
+
         return redirect($this->redirectTo);
     }
 

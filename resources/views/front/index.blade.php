@@ -45,118 +45,28 @@
                 PORTFOLIOS
             </h1>
         </div>
-        <div class="slide">
-            <div class="portfolio-description">
-                <div class="">
-                    <h1 class="font-size-2-5 font-weight-bold">CotintGroup</h1>
-                    <a href="https://www.cotintgroup.com/">cotintgroup.com</a>
-                    <p class="mt-5 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda beatae blanditiis debitis dolorum eos esse est harum, illum numquam possimus quibusdam quod repudiandae rerum veniam! Aliquid cupiditate facilis illo illum officiis quaerat quisquam reprehenderit, vero! Aliquid assumenda autem consectetur culpa cum distinctio doloremque dolores eius facere fuga impedit ipsa iure labore laborum nulla odio officia omnis optio quo rerum, sunt tempore veniam vitae voluptatibus voluptatum. A adipisci animi assumenda atque blanditiis consectetur distinctio, dolor eligendi enim excepturi explicabo inventore minus nulla praesentium provident quas qui repellendus rerum sed similique sunt ullam velit voluptatum! Ex exercitationem odit quam qui quisquam.</p>
-                    <div class="technologies">
-                        <div class="tasks">
+        @foreach($portfolios as $portfolio)
+            <div class="slide">
+                <div class="portfolio-description">
+                    <div class="">
+                        <h1 class="font-size-2-5 font-weight-bold">{{ $portfolio->name }}</h1>
+                        <a href="{{ $portfolio->link }}" target="_blank">{{ $portfolio->link }}</a>
+                        <p class="mt-5 text-justify">
+                            {{ $portfolio->description }}
+                        </p>
+                        <div class="technologies">
+                            <div class="tasks">
+                                @foreach($portfolio->attributes as $attribute)
                                     <span class="font-size-5">
-                                        <i class="fa fa-tachometer" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
+                                        <i class="{{ $attribute->icon }}" data-toggle="tooltip" data-placement="bottom" title="{{ $attribute->description }}" aria-hidden="true"></i>
                                     </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-wordpress" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-briefcase" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-moon-o" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-search" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
+                                @endforeach
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="slide">
-            <div class="portfolio-description">
-                <div class="">
-                    <h1 class="font-size-2-5 font-weight-bold">CotintGroup</h1>
-                    <a href="https://www.cotintgroup.com/">cotintgroup.com</a>
-                    <p class="mt-5 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda beatae blanditiis debitis dolorum eos esse est harum, illum numquam possimus quibusdam quod repudiandae rerum veniam! Aliquid cupiditate facilis illo illum officiis quaerat quisquam reprehenderit, vero! Aliquid assumenda autem consectetur culpa cum distinctio doloremque dolores eius facere fuga impedit ipsa iure labore laborum nulla odio officia omnis optio quo rerum, sunt tempore veniam vitae voluptatibus voluptatum. A adipisci animi assumenda atque blanditiis consectetur distinctio, dolor eligendi enim excepturi explicabo inventore minus nulla praesentium provident quas qui repellendus rerum sed similique sunt ullam velit voluptatum! Ex exercitationem odit quam qui quisquam.</p>
-                    <div class="technologies">
-                        <div class="tasks">
-                                    <span class="font-size-5">
-                                        <i class="fa fa-tachometer" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-wordpress" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-briefcase" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-moon-o" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-search" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slide">
-            <div class="portfolio-description">
-                <div class="">
-                    <h1 class="font-size-2-5 font-weight-bold">CotintGroup</h1>
-                    <a href="https://www.cotintgroup.com/">cotintgroup.com</a>
-                    <p class="mt-5 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda beatae blanditiis debitis dolorum eos esse est harum, illum numquam possimus quibusdam quod repudiandae rerum veniam! Aliquid cupiditate facilis illo illum officiis quaerat quisquam reprehenderit, vero! Aliquid assumenda autem consectetur culpa cum distinctio doloremque dolores eius facere fuga impedit ipsa iure labore laborum nulla odio officia omnis optio quo rerum, sunt tempore veniam vitae voluptatibus voluptatum. A adipisci animi assumenda atque blanditiis consectetur distinctio, dolor eligendi enim excepturi explicabo inventore minus nulla praesentium provident quas qui repellendus rerum sed similique sunt ullam velit voluptatum! Ex exercitationem odit quam qui quisquam.</p>
-                    <div class="technologies">
-                        <div class="tasks">
-                                    <span class="font-size-5">
-                                        <i class="fa fa-tachometer" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-wordpress" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-briefcase" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-moon-o" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-search" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slide">
-            <div class="portfolio-description">
-                <div class="">
-                    <h1 class="font-size-2-5 font-weight-bold">CotintGroup</h1>
-                    <a href="https://www.cotintgroup.com/">cotintgroup.com</a>
-                    <p class="mt-5 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda beatae blanditiis debitis dolorum eos esse est harum, illum numquam possimus quibusdam quod repudiandae rerum veniam! Aliquid cupiditate facilis illo illum officiis quaerat quisquam reprehenderit, vero! Aliquid assumenda autem consectetur culpa cum distinctio doloremque dolores eius facere fuga impedit ipsa iure labore laborum nulla odio officia omnis optio quo rerum, sunt tempore veniam vitae voluptatibus voluptatum. A adipisci animi assumenda atque blanditiis consectetur distinctio, dolor eligendi enim excepturi explicabo inventore minus nulla praesentium provident quas qui repellendus rerum sed similique sunt ullam velit voluptatum! Ex exercitationem odit quam qui quisquam.</p>
-                    <div class="technologies">
-                        <div class="tasks">
-                                    <span class="font-size-5">
-                                        <i class="fa fa-tachometer" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-wordpress" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-briefcase" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-moon-o" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                            <span class="font-size-5">
-                                        <i class="fa fa-search" data-toggle="tooltip" data-placement="bottom" title="asdas" aria-hidden="true"></i>
-                                    </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @endforeach
     </div>
     <div class="section skills">
         <div class="portfolio-title">
@@ -166,226 +76,52 @@
         </div>
         <div class="skills">
             <div class="container">
-                <div class="row">
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
+                @if(count($skills) > 2)
+                    <div class="row">
+                        @foreach($skills[0] as $skill)
+                            <div class="skill col-md-2">
+                                <div class="skill-item">
+                                    <div class="skill-logo">
+                                        <img src="{{ asset($skill->file->name) }}" class="skill-tiny-logo" alt="">
+                                    </div>
+                                    <div class="skill-title">
+                                        <h3>{{ $skill->name }}</h3>
+                                        <div class="skill-level">
+                                            <h1 class="font-size-4">{{ $skill->percent }}%</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="excerpt hidden">
+                                    <h1>{{ $skill->name }}</h1>
+                                    <h3>{{ $skill->tools }}</h3>
+                                    <p>{{ $skill->description }}</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
+                        @endforeach
                     </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
+                    <div class="row">
+                        @foreach($skills[1] as $skill)
+                            <div class="skill col-md-2">
+                                <div class="skill-item">
+                                    <div class="skill-logo">
+                                        <img src="{{ asset($skill->file->name) }}" class="skill-tiny-logo" alt="">
+                                    </div>
+                                    <div class="skill-title">
+                                        <h3>{{ $skill->name }}</h3>
+                                        <div class="skill-level">
+                                            <h1 class="font-size-4">{{ $skill->percent }}%</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="excerpt hidden">
+                                    <h1>{{ $skill->name }}</h1>
+                                    <h3>{{ $skill->tools }}</h3>
+                                    <p>{{ $skill->description }}</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
+                        @endforeach
                     </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                    <div class="skill col-md-2">
-                        <div class="skill-item">
-                            <div class="skill-logo">
-                                <img src="{{ asset('assets/front/images/edited/tiny/php.png') }}" class="skill-tiny-logo" alt="">
-                            </div>
-                            <div class="skill-title">
-                                <h3>PHP</h3>
-                                <div class="skill-level">
-                                    <h1 class="font-size-4">80%</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="excerpt hidden">
-                            <h1>PHP</h1>
-                            <h3>OOP , MVC , functional , flat , Design patterns</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus ea magnam. Doloremque eligendi harum iste itaque modi molestiae, molestias non quibusdam sunt tempora tempore ut vel veniam! Accusamus deleniti dicta dolor doloribus enim et excepturi, explicabo laudantium nesciunt nostrum porro, quae quas quod reprehenderit, veniam veritatis voluptatum. Explicabo, nulla!</p>
-                        </div>
-                    </div>
-                </div>
+                @endif
             </div>
             <div class="skill-description hidden" id="description">
                 <i class="fa fa-window-close" aria-hidden="true"></i>
@@ -413,7 +149,9 @@
                         </div>
                         <div id="screen">
                             <p class="font">root@127.0.0.1:~$</p>
-                            <p class="line-1 hidden">Animation typewriter style using css steps()</p>
+                            <p class="line-1 hidden">
+                                Hi Mojtaba! we've visited your site and we want to work with you please contact us
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -422,14 +160,13 @@
                     <h3>Name : MOJTABA RAKHISI</h3>
                     <h4>Email : <a href="mailto:mojtaba.street@gmail.com">mojtaba.street@gmail.com</a></h4>
                     <div class="socials">
-                        <a href="#" class="social-item"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="https://github.com/mojtabaRKS" class="social-item"><i class="fa fa-github" aria-hidden="true"></i></a>
                         <a href="#" class="social-item"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#" class="social-item"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="#" class="social-item"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                        <a href="#" class="social-item"><i class="fa fa-telegram" aria-hidden="true"></i></a>
-                        <a href="#" class="social-item"><i class="fa fa-slack" aria-hidden="true"></i></a>
-                        <a href="#" class="social-item"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        <a href="#" class="social-item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/mojtaba-rakhisi-4125b6a8/" class="social-item"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://t.me/mojtabarks" class="social-item"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                        <a href="https://mojtabarakhisi.slack.com" class="social-item"><i class="fa fa-slack" aria-hidden="true"></i></a>
+                        <a href="https://stackoverflow.com/users/7551147/mojtaba-rakhisi" class="social-item"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/mojtaba.rks/" class="social-item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>

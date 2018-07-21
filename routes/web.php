@@ -13,9 +13,7 @@
 
 # ------------- front routes --------------
 
-Route::get('/', function () {
-    return view('front.index');
-})->name('index');
+Route::get('/', 'Front\HomeController@index')->name('index');
 
 # ---------- end of front routes ----------
 
@@ -42,5 +40,3 @@ Route::group([
 
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
