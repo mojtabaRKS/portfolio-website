@@ -1,9 +1,6 @@
 // initialize paroller.js and set attributes
 $(document).ready(function () {
-    $(".tilt-js").tilt({
-        maxTilt: 5,
-        perspective: 1000
-    });
+
 
     var scene = document.getElementById('scene');
     var parallaxInstance = new Parallax(scene , {
@@ -32,5 +29,11 @@ $(document).ready(function () {
     $.fn.fullpage.afterLoad();
 
     $('[data-toggle="tooltip"]').tooltip();
+
 });
+
+$(".js-tilt").tilt({
+    maxTilt: 2
+});
+
 
