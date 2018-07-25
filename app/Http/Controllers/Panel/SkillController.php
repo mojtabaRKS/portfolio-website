@@ -34,7 +34,7 @@ class SkillController extends Controller
      */
     public function index()
     {
-        $skills = $this->skill->with('image')->latest()->get();
+        $skills = $this->skill->latest()->get();
         return view('panel.skills.index' , [
             'skills' => $skills
         ]);
